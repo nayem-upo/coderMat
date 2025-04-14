@@ -1,0 +1,291 @@
+[
+  {
+    "id": 1,
+    "image_url": "https://i.ibb.co.com/HNFYJKB/Group-1000002434.png",
+    "title": "Custom Web Development",
+    "short_description": "Build impactful, future-ready web solutions. Using the latest technologies, we create custom websites that drive business growth, enhance user experience, and set your brand apart.",
+    "service_details_description": "At CoderMat, we specialize in creating custom web development solutions that drive business growth. Using the latest technologies, we build visually appealing, user-friendly websites tailored to your brand and goals. From start to finish, we ensure your site is secure, scalable, and optimized for performance. Whether you're a startup or an established brand, we create web solutions that grow with your business. Let's work together to bring your vision to life—contact us today! At CoderMat, we’re more than just developers—we’re your partners in building a powerful online presence that leaves a lasting impact. Whether you’re a passionate startup eager to disrupt the market or an established brand ready for a digital makeover, our team blends innovation, strategy, and technical know-how to bring your ideas to life. We don’t just create websites; we craft immersive digital experiences that captivate your audience and drive your business forward. Together, we’ll turn your vision into something extraordinary. Reach out today, and let’s create a future where your brand leads the way!",
+    "service_features": [
+      {
+        "id": 1,
+        "title": "Custom Web Design",
+        "description": "Every business has its unique needs, and we tailor web designs specifically for you. We create visually appealing, custom layouts that represent your brand, ensuring your website stands out. Our designs are user-focused and aim to enhance the overall user experience while effectively conveying your brand message."
+      },
+      {
+        "id": 2,
+        "title": "Responsive Layouts",
+        "description": "We ensure that your website performs seamlessly across all devices, from desktops to smartphones. With responsive design, we make sure that the layout adapts to different screen sizes and resolutions, providing an optimal viewing experience without compromising functionality or aesthetics."
+      },
+      {
+        "id": 3,
+        "title": "User-Friendly Interfaces",
+        "description": "Our designs prioritize the user experience, making it simple and intuitive for visitors to navigate your site. We focus on clear navigation, simple menus, and easy-to-find information, ensuring your users stay engaged and can easily complete desired actions like signing up, purchasing, or contacting you."
+      },
+      {
+        "id": 4,
+        "title": "Scalable Solutions",
+        "description": "As your business grows, so should your website. Our custom development ensures that your website is scalable, allowing you to easily add new features, expand content, and integrate more complex functionalities as your needs evolve. This way, you won’t outgrow your website, and it will adapt with you."
+      },
+      {
+        "id": 5,
+        "title": "Fast Load Times",
+        "description": "Website performance is key to user satisfaction and search engine rankings. We optimize your site’s code and resources to ensure fast loading times, reducing bounce rates and improving user retention. A faster website means happier visitors and better results for your business."
+      },
+      {
+        "id": 6,
+        "title": "SEO Optimization",
+        "description": "We implement SEO best practices to improve your website's visibility on search engines. From meta tags to keyword optimization, we make sure that your website is fully optimized to rank higher on search engine results, driving organic traffic and improving your chances of being discovered by your target audience."
+      },
+      {
+        "id": 7,
+        "title": "Advanced Security",
+        "description": "Your website’s security is a top priority. We ensure that your site is protected against cyber threats with secure coding practices, SSL certificates, and other advanced security measures. This helps protect user data, builds trust with your audience, and ensures the safety of your website from vulnerabilities."
+      },
+      {
+        "id": 8,
+        "title": "Ongoing Support",
+        "description": "Websites require continuous monitoring, updates, and maintenance. We offer ongoing support to ensure your site stays up-to-date, secure, and performing at its best. From content updates to fixing any issues, our support team is always ready to help you keep your website running smoothly."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "image_url": "https://i.ibb.co.com/sK3qbX1/Group-1000002435.png",
+    "title": "Front-End Development",
+    "short_description": "Create dynamic, engaging, and user-centric web experiences with our expert front-end development. We craft beautiful, fast, and responsive websites that empower your brand and captivate your audience.",
+    "service_details_description": "At CoderMat, we focus on crafting engaging and functional front-end designs that offer both beauty and performance. By blending the latest technologies with user-centric design principles, we create websites that drive conversions and elevate your brand’s online presence. Let us help you turn your ideas into interactive, high-performing digital experiences. Get in touch with us today and let's make something amazing together! At CoderMat, we’re more than just developers—we’re your partners in building a powerful online presence that leaves a lasting impact. Whether you’re a passionate startup eager to disrupt the market or an established brand ready for a digital makeover, our team blends innovation, strategy, and technical know-how to bring your ideas to life. We don’t just create websites; we craft immersive digital experiences that captivate your audience and drive your business forward. Together, we’ll turn your vision into something extraordinary. Reach out today, and let’s create a future where your brand leads the way!",
+    "service_features": [
+      {
+        "id": 1,
+        "title": "Custom UI/UX Design",
+        "description": "We create custom user interfaces that reflect your brand’s personality while offering a seamless user experience. From the layout to color schemes and typography, every design detail is tailored to ensure your users feel engaged and connected with your website."
+      },
+      {
+        "id": 2,
+        "title": "Interactive Interfaces",
+        "description": "We incorporate interactive elements like animations, hover effects, and smooth transitions to keep your users engaged. These interactions help create a more enjoyable, dynamic experience that encourages users to explore your website and take desired actions."
+      },
+      {
+        "id": 3,
+        "title": "Responsive Design",
+        "description": "Your website will look stunning and function smoothly on any device. We ensure that every page adapts beautifully to different screen sizes, from desktops to mobile phones, offering users a consistent, high-quality experience wherever they access your site."
+      },
+      {
+        "id": 4,
+        "title": "Latest Front-End Technologies",
+        "description": "We leverage the latest front-end technologies such as React.js, Vue.js, Angular, Svelte, and Tailwind CSS to build modern, interactive, and responsive websites. These technologies allow us to deliver high-performance, scalable solutions that ensure your website stays ahead of the curve."
+      },
+      {
+        "id": 5,
+        "title": "Fast Load Times",
+        "description": "We optimize all front-end elements to ensure fast loading speeds. Faster websites enhance user satisfaction, lower bounce rates, and contribute to higher search engine rankings, all of which drive more traffic and improve conversions."
+      },
+      {
+        "id": 6,
+        "title": "Mobile Optimization",
+        "description": "We prioritize mobile optimization, ensuring that your website functions flawlessly on smartphones and tablets. With mobile usage at an all-time high, we make sure your users have an optimal experience no matter what device they’re using."
+      },
+      {
+        "id": 7,
+        "title": "SEO-Friendly Code",
+        "description": "We write SEO-optimized front-end code to enhance your website's visibility on search engines. By using best practices for SEO, such as proper use of tags and structure, we help your website rank better and attract more organic traffic."
+      },
+      {
+        "id": 8,
+        "title": "User-Focused Layouts",
+        "description": "Our layouts are designed with the user in mind, ensuring easy navigation and an intuitive experience. We focus on creating clear, simple menus, fast access to information, and clear calls to action to ensure that users can easily find what they need and engage with your content."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "image_url": "https://i.ibb.co.com/MZ50jrL/Stacked-Area-Up.png",
+    "title": "Back-End Development",
+    "short_description": "Build robust, secure, and scalable back-end systems that power your website and applications. We provide seamless integration, high-performance architecture, and data security to ensure your digital products run smoothly.",
+    "service_details_description": "At CoderMat, we specialize in building secure, efficient, and scalable back-end systems that power your digital solutions. Our team uses the latest technologies to ensure your website or application runs smoothly, securely, and efficiently. Let’s work together to create a high-performance, future-ready back-end solution that supports your business goals. Reach out to us today, and let’s build something powerful together! At CoderMat, we’re more than just developers—we’re your partners in building a powerful online presence that leaves a lasting impact. Whether you’re a passionate startup eager to disrupt the market or an established brand ready for a digital makeover, our team blends innovation, strategy, and technical know-how to bring your ideas to life. We don’t just create websites; we craft immersive digital experiences that captivate your audience and drive your business forward. Together, we’ll turn your vision into something extraordinary. Reach out today, and let’s create a future where your brand leads the way!",
+    "service_features": [
+      {
+        "id": 1,
+        "title": "Database Integration",
+        "description": "We ensure seamless integration of powerful databases like MySQL, PostgreSQL, MongoDB, and Firebase to store and manage your data efficiently. Our solutions are designed to ensure data consistency, fast access, and reliable backup strategies for smooth operations."
+      },
+      {
+        "id": 2,
+        "title": "Server-Side Scripting",
+        "description": "Our back-end development uses cutting-edge technologies like Node.js, Python, Ruby on Rails, and PHP to build efficient server-side scripts that drive your website’s functionality. We write clean, scalable code that helps manage user requests, server interactions, and data retrieval effectively."
+      },
+      {
+        "id": 3,
+        "title": "API Development",
+        "description": "We create robust, secure APIs to integrate different services and provide a seamless flow of data between the front end and back end. Whether you need RESTful APIs or GraphQL, our team ensures easy integration, smooth communication, and optimal performance for your app."
+      },
+      {
+        "id": 4,
+        "title": "Secure Data Handling",
+        "description": "We prioritize security in all our back-end development. Using encryption, secure protocols, and regular audits, we ensure that user data is handled safely. From authentication to data storage, your users' privacy and security are always our top priority."
+      },
+      {
+        "id": 5,
+        "title": "Scalable Architecture",
+        "description": "Our back-end systems are built to grow with your business. We use microservices architecture and cloud technologies like AWS, Azure, and Google Cloud to create scalable solutions that adapt as your traffic and needs increase, ensuring your website or app performs reliably no matter the scale."
+      },
+      {
+        "id": 6,
+        "title": "Performance Optimization",
+        "description": "We optimize the performance of your back-end to ensure fast response times and minimal latency. Our team uses techniques like caching, database indexing, and load balancing to reduce server load and improve overall system efficiency, ensuring a smooth user experience."
+      },
+      {
+        "id": 7,
+        "title": "Content Management Systems (CMS)",
+        "description": "We specialize in custom CMS development using platforms like WordPress, Drupal, and Joomla, allowing you to easily manage your website’s content without technical knowledge. We also build bespoke CMS solutions to suit your unique requirements, giving you complete control over your content."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "image_url": "https://i.ibb.co.com/k6Kzs1s/Group-1000002436.png",
+    "title": "Web Portal Development",
+    "short_description": "Create powerful, secure, and user-friendly web portals tailored to your business needs. Our custom solutions ensure seamless user experiences, real-time data, and scalable systems that grow with your business.",
+    "service_details_description": "At CoderMat, we specialize in developing custom web portals that provide intuitive user interfaces, strong security, and seamless integration with your existing systems. Whether you need a customer portal, employee dashboard, or complex data-driven application, we deliver solutions that are designed to empower your business. Let's collaborate to build a web portal that enhances user engagement and supports your business growth. Contact us today to get started! At CoderMat, we’re more than just developers—we’re your partners in building a powerful online presence that leaves a lasting impact. Whether you’re a passionate startup eager to disrupt the market or an established brand ready for a digital makeover, our team blends innovation, strategy, and technical know-how to bring your ideas to life. We don’t just create websites; we craft immersive digital experiences that captivate your audience and drive your business forward. Together, we’ll turn your vision into something extraordinary. Reach out today, and let’s create a future where your brand leads the way!",
+    "service_features": [
+      {
+        "id": 1,
+        "title": "Custom Portal Solutions",
+        "description": "We create tailored portal solutions to meet your specific needs, whether it's for customer service, internal operations, or data management. Our portals are built to align with your business processes and goals, ensuring efficient workflows and improved user satisfaction."
+      },
+      {
+        "id": 2,
+        "title": "Responsive Layouts",
+        "description": "All our portals are designed to function flawlessly across devices. From desktops to mobile phones, we ensure your portal adapts to different screen sizes and resolutions, providing a consistent and optimal experience for every user."
+      },
+      {
+        "id": 3,
+        "title": "Secure User Authentication",
+        "description": "We implement strong user authentication systems, including multi-factor authentication (MFA), single sign-on (SSO), and role-based access controls. This ensures that only authorized users can access sensitive information and maintain data security."
+      },
+      {
+        "id": 4,
+        "title": "Multi-Device Compatibility",
+        "description": "Our web portals are compatible with a wide range of devices, from laptops and tablets to smartphones. With responsive design principles, we ensure users can access your portal anytime, anywhere, and on any device without losing functionality."
+      },
+      {
+        "id": 5,
+        "title": "User-Friendly Interfaces",
+        "description": "We prioritize user experience by designing intuitive, easy-to-navigate interfaces that minimize the learning curve for users. Clear menus, search functionality, and a seamless flow of actions make interacting with your portal enjoyable and efficient."
+      },
+      {
+        "id": 6,
+        "title": "Real-Time Analytics",
+        "description": "We integrate real-time analytics into your portal, allowing you to track key metrics and gain valuable insights. Whether it’s user behavior, data usage, or performance metrics, our dashboards provide up-to-date information to support decision-making."
+      },
+      {
+        "id": 7,
+        "title": "Advanced Search Features",
+        "description": "Our portals include advanced search functionality, helping users quickly find the information they need. Filters, auto-suggestions, and predictive search enhance the user experience and make navigating large datasets effortless."
+      },
+      {
+        "id": 8,
+        "title": "Ongoing Maintenance",
+        "description": "We offer ongoing support and maintenance to ensure your portal continues to run smoothly. From regular updates and security patches to performance monitoring, we make sure your portal remains secure, functional, and up-to-date as your business evolves."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "image_url": "https://i.ibb.co.com/nnLX4xR/Group-1000002437.png",
+    "title": "E-Commerce Development",
+    "short_description": "Build robust, secure, and user-friendly e-commerce platforms tailored to your business needs. We create custom online stores that provide seamless shopping experiences and drive growth.",
+    "service_details_description": "At CoderMat, we specialize in developing e-commerce websites that are not only functional but also optimized to convert visitors into customers. Whether you're launching a new online store or looking to revamp your existing platform, we provide solutions that streamline your business operations and enhance customer satisfaction. Let’s work together to create an e-commerce platform that elevates your business and keeps your customers coming back! At CoderMat, we’re more than just developers—we’re your partners in building a powerful online presence that leaves a lasting impact. Whether you’re a passionate startup eager to disrupt the market or an established brand ready for a digital makeover, our team blends innovation, strategy, and technical know-how to bring your ideas to life. We don’t just create websites; we craft immersive digital experiences that captivate your audience and drive your business forward. Together, we’ll turn your vision into something extraordinary. Reach out today, and let’s create a future where your brand leads the way!",
+    "service_features": [
+      {
+        "id": 1,
+        "title": "Custom Online Stores",
+        "description": "We design and develop custom e-commerce stores that perfectly align with your brand’s identity and meet your business needs. Our tailored solutions offer unique, engaging experiences that set you apart from the competition and attract more customers."
+      },
+      {
+        "id": 2,
+        "title": "Payment Gateway Integration",
+        "description": "We seamlessly integrate secure and reliable payment gateways like PayPal, Stripe, Razorpay, and more. This ensures safe, smooth, and quick transactions for your customers, providing a trustworthy online shopping experience."
+      },
+      {
+        "id": 3,
+        "title": "Product Management",
+        "description": "Our solutions offer intuitive product management systems that allow you to easily add, update, and manage your product listings. Whether you have a few items or a large inventory, our systems make it simple to keep everything organized and up-to-date."
+      },
+      {
+        "id": 4,
+        "title": "Secure Transactions",
+        "description": "Security is paramount in e-commerce. We use the latest encryption protocols and security measures to ensure that all customer data and transactions are protected. This builds trust with your customers and ensures the integrity of their personal and financial information."
+      },
+      {
+        "id": 5,
+        "title": "Mobile-Friendly Design",
+        "description": "With the increasing use of mobile devices for shopping, we create responsive, mobile-friendly designs to ensure that your customers can shop seamlessly on smartphones and tablets. Your store will look and function flawlessly, no matter what device they’re using."
+      },
+      {
+        "id": 6,
+        "title": "User Account Management",
+        "description": "We implement user account management features, allowing customers to create accounts, track their orders, save their favorite items, and streamline the checkout process. This enhances customer loyalty and makes the shopping experience more personalized."
+      },
+      {
+        "id": 7,
+        "title": "SEO-Friendly Features",
+        "description": "We build e-commerce platforms with SEO best practices in mind, optimizing product pages, metadata, and content to help your store rank higher on search engines. This increases your visibility, drives organic traffic, and boosts your sales potential."
+      },
+      {
+        "id": 8,
+        "title": "Order Tracking Systems",
+        "description": "We integrate order tracking systems that allow your customers to easily monitor the status of their orders. Real-time updates keep customers informed and enhance their overall shopping experience, reducing customer support inquiries."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "image_url": "https://i.ibb.co.com/KG8MBBj/Group-1000001638.png",
+    "title": "UI & UX Design",
+    "short_description": "Create intuitive, user-focused designs that deliver seamless and engaging digital experiences. We combine aesthetics with functionality to craft interfaces that captivate and convert users.",
+    "service_details_description": "At CoderMat, we specialize in designing UI/UX solutions that prioritize the user at every step. From conceptual wireframes to polished, interactive interfaces, we ensure your digital products are not only visually appealing but also intuitive and easy to navigate. Let’s collaborate to create designs that drive user satisfaction and achieve your business goals! At CoderMat, we’re more than just developers—we’re your partners in building a powerful online presence that leaves a lasting impact. Whether you’re a passionate startup eager to disrupt the market or an established brand ready for a digital makeover, our team blends innovation, strategy, and technical know-how to bring your ideas to life. We don’t just create websites; we craft immersive digital experiences that captivate your audience and drive your business forward. Together, we’ll turn your vision into something extraordinary. Reach out today, and let’s create a future where your brand leads the way!",
+    "service_features": [
+      {
+        "id": 1,
+        "title": "User-Centered Design",
+        "description": "We put users at the heart of our design process. By understanding your audience's needs and behaviors, we create designs that are intuitive, accessible, and deliver the best possible user experience."
+      },
+      {
+        "id": 2,
+        "title": "Intuitive Interfaces",
+        "description": "Our interfaces are designed to be easy to use, ensuring that users can effortlessly interact with your website or app. We focus on clear navigation, well-structured content, and actions that are simple to perform, resulting in an intuitive and enjoyable user journey."
+      },
+      {
+        "id": 3,
+        "title": "Responsive Layouts",
+        "description": "We design responsive layouts that adapt seamlessly to all screen sizes, from desktops to smartphones. This ensures your website or application provides a consistent and smooth experience on any device."
+      },
+      {
+        "id": 4,
+        "title": "Wireframing & Prototyping",
+        "description": "We build detailed wireframes and interactive prototypes to visualize and test the design before development. This helps you see how the final product will look and function, allowing for early feedback and adjustments."
+      },
+      {
+        "id": 5,
+        "title": "Visual Consistency",
+        "description": "We maintain visual consistency across all design elements, from color schemes to typography and iconography. This creates a unified, professional look that strengthens your brand identity and enhances the user experience."
+      },
+      {
+        "id": 6,
+        "title": "Engaging User Experience",
+        "description": "Our goal is to create engaging and meaningful experiences for users. We use strategic design elements like animations, transitions, and microinteractions to keep users engaged while maintaining a smooth, efficient experience."
+      },
+      {
+        "id": 7,
+        "title": "Cross-Platform Compatibility",
+        "description": "We ensure that your designs work seamlessly across all platforms and devices. Whether your users are on desktop, mobile, or tablet, we make sure the experience remains consistent and optimized for each platform."
+      },
+      {
+        "id": 8,
+        "title": "Usability Testing",
+        "description": "We conduct rigorous usability testing to identify any pain points or areas for improvement. By gathering feedback from real users, we refine the design to ensure that your product meets the highest usability standards."
+      }
+    ]
+  }
+]

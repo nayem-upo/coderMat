@@ -1,0 +1,222 @@
+[
+  {
+    "stack": {
+      "id": 1,
+      "name": "Front-End"
+    },
+    "technologies": [
+      {
+        "id": 3,
+        "name": "JavaScript",
+        "image": "https://i.ibb.co.com/BnVxMSs/js.png"
+      },
+      {
+        "id": 4,
+        "name": "TypeScript",
+        "image": "https://i.ibb.co.com/Jy6bMst/ts.png"
+      },
+      {
+        "id": 1,
+        "name": "React Js",
+        "image": "https://i.ibb.co.com/JHL2Pd5/react.png"
+      },
+      {
+        "id": 2,
+        "name": "Next Js",
+        "image": "https://i.ibb.co.com/5W5q0CY/nextjs.png"
+      },
+      {
+        "id": 24,
+        "name": "Angular",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVUcQofbdW28AoTCjLFzojT7sSZQVsEurWQA&s"
+      },
+      {
+        "id": 25,
+        "name": "Vue.js",
+        "image": "https://w7.pngwing.com/pngs/595/279/png-transparent-vue-js-javascript-library-angularjs-react-vue-js-template-angle-text-thumbnail.png"
+      },
+      {
+        "id": 5,
+        "name": "Redux",
+        "image": "https://i.ibb.co.com/pbz2PWm/redux.png"
+      },
+      {
+        "id": 6,
+        "name": "Tailwind",
+        "image": "https://i.ibb.co.com/3hXsTg1/tailwind.png"
+      }
+    ]
+  },
+  {
+    "stack": {
+      "id": 2,
+      "name": "Back-End"
+    },
+    "technologies": [
+      {
+        "id": 27,
+        "name": "Python",
+        "image": "https://banner2.cleanpng.com/20190623/yp/kisspng-python-computer-icons-programming-language-executa-1713885634631.webp"
+      },
+      {
+        "id": 9,
+        "name": "Node Js",
+        "image": "https://i.ibb.co.com/PWFDZ3b/nodejs.png"
+      },
+      {
+        "id": 30,
+        "name": "Java",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnM3JO-10pqUHbWWP5tuOo-9LKUZhogZEEww&s"
+      },
+      {
+        "id": 32,
+        "name": "C#",
+        "image": "https://w7.pngwing.com/pngs/929/60/png-transparent-net-framework-c-net-core-software-framework-mono-studio-purple-studio-violet-thumbnail.png"
+      },
+      {
+        "id": 36,
+        "name": "PHP",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png"
+      },
+      {
+        "id": 10,
+        "name": "Express Js",
+        "image": "https://i.ibb.co.com/frpdrGT/Express.png"
+      },
+      {
+        "id": 28,
+        "name": "Django",
+        "image": "https://e7.pngegg.com/pngimages/10/113/png-clipart-django-web-development-web-framework-python-software-framework-django-text-trademark-thumbnail.png"
+      },
+
+      {
+        "id": 37,
+        "name": "Laravel",
+        "image": "https://static-00.iconduck.com/assets.00/laravel-icon-1990x2048-xawylrh0.png"
+      }
+    ]
+  },
+  {
+    "stack": {
+      "id": 3,
+      "name": "Database"
+    },
+    "technologies": [
+      {
+        "id": 14,
+        "name": "MongoDB",
+        "image": "https://i.ibb.co.com/X2JL6BY/mongodb.png"
+      },
+      {
+        "id": 16,
+        "name": "PostgresQL",
+        "image": "https://i.ibb.co.com/SwQHDwN/Postgresql.png"
+      },
+      {
+        "id": 38,
+        "name": "MySQL",
+        "image": "https://w7.pngwing.com/pngs/717/111/png-transparent-mysql-round-logo-tech-companies-thumbnail.png"
+      },
+      {
+        "id": 40,
+        "name": "Firebase",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuawUuQCcq6fD-KpdmL4QixUOyqQqdrVNIDg&s"
+      },
+      {
+        "id": 41,
+        "name": "Redis",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMbuTCnPv7wAsOzmJ8x24tK7Wgbz6SfccUKQ&s"
+      },
+      {
+        "id": 15,
+        "name": "Mongoose",
+        "image": "https://i.ibb.co.com/3SdzPRZ/mongoose.png"
+      },
+      {
+        "id": 39,
+        "name": "SQLite",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL0PMGDkkkufkdgxO2YUft81X9B3Nfk5fWBw&s"
+      }
+    ]
+  },
+  {
+    "stack": {
+      "id": 4,
+      "name": "MERN-Stack"
+    },
+    "technologies": [
+      {
+        "id": 1,
+        "name": "React Js",
+        "image": "https://i.ibb.co.com/JHL2Pd5/react.png"
+      },
+      {
+        "id": 9,
+        "name": "Node Js",
+        "image": "https://i.ibb.co.com/PWFDZ3b/nodejs.png"
+      },
+      {
+        "id": 10,
+        "name": "Express Js",
+        "image": "https://i.ibb.co.com/frpdrGT/Express.png"
+      },
+      {
+        "id": 14,
+        "name": "MongoDB",
+        "image": "https://i.ibb.co.com/X2JL6BY/mongodb.png"
+      }
+    ]
+  },
+
+  {
+    "stack": {
+      "id": 7,
+      "name": "UI/UX Design"
+    },
+    "technologies": [
+      {
+        "id": 21,
+        "name": "Figma",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png"
+      },
+      {
+        "id": 54,
+        "name": "Adobe XD",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/2101px-Adobe_XD_CC_icon.svg.png"
+      },
+      {
+        "id": 55,
+        "name": "Sketch",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3oCenqvw4j6W7oaiG2scIQiHcGC-FpTu63g&s"
+      }
+    ]
+  },
+  {
+    "stack": {
+      "id": 8,
+      "name": "CMS & E-commerce"
+    },
+    "technologies": [
+      {
+        "id": 22,
+        "name": "WordPress",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/Wordpress_Blue_logo.png"
+      },
+      {
+        "id": 56,
+        "name": "Shopify",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8gV071l8VQBqOvaWyMctGOQ7zD30Z77Swyg&s"
+      },
+      {
+        "id": 57,
+        "name": "Magento",
+        "image": "https://w7.pngwing.com/pngs/1024/250/png-transparent-magento-e-commerce-logo-wordpress-miscellaneous-angle-company-thumbnail.png"
+      },
+      {
+        "id": 58,
+        "name": "Web Flow",
+        "image": "https://img.icons8.com/color/512/webflow.png"
+      }
+    ]
+  }
+]
