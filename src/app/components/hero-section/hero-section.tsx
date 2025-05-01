@@ -121,7 +121,7 @@ export default function HeroSection() {
                 alt="JavaScript Icon"
                 width={540}
                 height={540}
-                className="animate-zoom-in-out  w-[120px] absolute -top-5 2xl:top-[50px] left-8 2xl:left-[300px] sm:hidden hidden md:block lg:block md:block"
+                className="animate-zoom-in-out  w-[120px] absolute -top-5 2xl:top-[50px] left-8 2xl:left-[300px] sm:hidden hidden lg:block md:block"
               />
             </div>
             <p className="mt-2 md:mt-4 text-sm md:text-xl text-center md:text-start md:max-w-md md:px-0 px-7 py-2">
@@ -156,7 +156,7 @@ export default function HeroSection() {
               alt="Tailwind CSS Icon"
               width={540}
               height={540}
-              className="animate-spin-then-straight w-[150px] sm:hidden absolute lg:-bottom-10 left-1 2xl:left-[300px] hidden md:block lg:block md:block"
+              className="animate-spin-then-straight w-[150px] sm:hidden absolute lg:-bottom-10 left-1 2xl:left-[300px] hidden lg:block md:block"
             />
           </div>
 
