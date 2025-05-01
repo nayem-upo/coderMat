@@ -138,7 +138,7 @@ export default function HeroSection() {
                   Our Services
                 </button>
               </Link>
-              <div className="flex flex-col items-center right-[10px] top-[210px]  md:hidden absolute">
+              <div className="flex flex-col items-center right-[10px] top-[270px]  md:hidden absolute">
                 {/* Arrow with bounce animation */}
                 <div className="flex flex-col items-center animate-bounce">
                   <div className="w-px h-8 bg-white"></div>
