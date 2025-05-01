@@ -109,7 +109,7 @@ export default function HeroSection() {
       `}</style>
 
       <section className="pt-20 pb-10 md:pb-0 md:pt-0 flex items-center justify-center md:p-3 lg:p-8">
-        <div className="flex flex-col gap-2 lg:gap-0 items-center justify-center md:flex-row max-w-5xl mx-auto w-full text-white md:pt-20 lg:pt-0 2xl:pt-[250px] md:px-10 lg:px-0">
+        <div className="flex flex-col gap-2 lg:gap-0 items-center justify-center md:flex-row max-w-5xl mx-auto w-full text-white md:pt-20 lg:pt-0 md:px-10 lg:px-0">
           {/* Left Section */}
           <div className="flex-1 mb-8 md:mb-0 animate-bottom">
             <div>
@@ -121,7 +121,7 @@ export default function HeroSection() {
                 alt="JavaScript Icon"
                 width={540}
                 height={540}
-                className="animate-zoom-in-out  w-[120px] absolute -top-5 2xl:top-[50px] left-8 2xl:left-[300px] hidden md:block"
+                className="animate-zoom-in-out  w-[120px] absolute -top-5 2xl:top-[50px] left-8 2xl:left-[300px] sm:hidden hidden md:block lg:block md:block"
               />
             </div>
             <p className="mt-2 md:mt-4 text-sm md:text-xl text-center md:text-start md:max-w-md md:px-0 px-7 py-2">
@@ -156,7 +156,7 @@ export default function HeroSection() {
               alt="Tailwind CSS Icon"
               width={540}
               height={540}
-              className="animate-spin-then-straight w-[150px] absolute lg:-bottom-10 left-1 2xl:left-[300px] hidden md:block"
+              className="animate-spin-then-straight w-[150px] sm:hidden absolute lg:-bottom-10 left-1 2xl:left-[300px] hidden md:block lg:block md:block"
             />
           </div>
 
@@ -173,7 +173,7 @@ export default function HeroSection() {
                 alt="React Icon"
                 width={660}
                 height={660}
-                className="absolute w-[120px] top-3 2xl:-top-[100px] -right-[195px] 2xl:-right-[350px] animate-spin-slow z-10"
+                className="absolute w-[120px] top-3 2xl:-top-[100px] -right-[195px] 2xl:-right-[350px] hidden md:block lg:block animate-spin-slow z-10"
               />
 
               <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
@@ -227,7 +227,7 @@ export default function HeroSection() {
               alt="Tailwind CSS Icon"
               width={540}
               height={540}
-              className="animate-spin-then-straight w-[80px] absolute bottom-10 2xl:-bottom-[50px] left-[540px] 2xl:left-[600px]"
+              className="animate-spin-then-straight w-[80px] absolute bottom-10 2xl:-bottom-[50px] hidden md:block lg:block left-[540px] 2xl:left-[600px]"
             />
           </div>
         </div>
