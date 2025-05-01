@@ -138,7 +138,7 @@ export default function HeroSection() {
                   Our Services
                 </button>
               </Link>
-              <div className="w-full flex flex-col items-center left-[120px]  md:hidden absolute">
+              <div className="flex flex-col items-center right-[10px] top-[210px]  md:hidden absolute">
                 {/* Arrow with bounce animation */}
                 <div className="flex flex-col items-center animate-bounce">
                   <div className="w-px h-8 bg-white"></div>
@@ -173,7 +173,7 @@ export default function HeroSection() {
                 alt="React Icon"
                 width={660}
                 height={660}
-                className="absolute w-[120px] top-3 2xl:-top-[100px] -right-[195px] 2xl:-right-[350px] hidden md:block lg:block animate-spin-slow z-10"
+                className="absolute w-[120px] top-3 2xl:-top-[40px] -right-[195px] 2xl:-right-[350px] hidden sm:hidden md:block lg:block animate-spin-slow z-10"
               />
 
               <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
