@@ -76,7 +76,7 @@ const Services = () => {
         <SkeletonLoader />
       ) : (
         // Services grid
-        <div className="max-w-7xl xl:max-w-[105rem] mx-auto grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 px-10 justify-center gap-8 mt-10 md:mt-20">
+        <div className="max-w-7xl xl:max-w-[105rem] mx-auto grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 px-10 justify-center gap-8 mt-10 md:mt-20">
           {services.map((service: service) => (
             <ServiceCard service={service} key={service.id} />
           ))}
