@@ -168,13 +168,7 @@ export default function HeroSection() {
             {/* Front Static Card */}
             <div className="relative bg-gradient-to-br from-[#350da5] via-[#7b0ea0] to-[#99058d] opacity-80 p-8 rounded-3xl shadow-lg w-[330px] md:h-[500px] lg:h-[530px] md:w-[340px] lg:w-[390px] max-w-md">
               {/* Spinning React Icon */}
-              <Image
-                src="https://i.postimg.cc/pX2N6M2g/react.png"
-                alt="React Icon"
-                width={660}
-                height={660}
-                className="absolute w-[120px] top-3 2xl:-top-[40px] -right-[195px] 2xl:-right-[350px] hidden sm:hidden md:block lg:block animate-spin-slow z-10"
-              />
+
 
               <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">
                 Let's start a <br /> Project Together
@@ -229,6 +223,13 @@ export default function HeroSection() {
               height={540}
               className="animate-spin-then-straight w-[80px] absolute bottom-10 2xl:-bottom-[50px] hidden md:block lg:block left-[540px] 2xl:left-[600px]"
             />
+            {/* <Image
+              src="https://i.postimg.cc/pX2N6M2g/react.png"
+              alt="React Icon"
+              width={660}
+              height={660}
+              className="absolute w-[120px] top-3 2xl:-top-[40px] -right-10 2xl:-right-[350px] hidden sm:hidden md:block lg:block animate-spin-slow z-50"
+            /> */}
           </div>
         </div>
       </section>

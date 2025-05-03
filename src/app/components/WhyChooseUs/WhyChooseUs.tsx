@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
               alt="Background"
             />
             <Image
-              className="absolute top-44 -right-6 animate-bounce-slow"
+              className="absolute top-44 md:-right-6 animate-bounce-slow"
               width={200}
               height={200}
               src="https://i.ibb.co.com/FqsS3dH/Untitled-design-1.png"
