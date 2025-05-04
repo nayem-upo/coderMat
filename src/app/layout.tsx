@@ -5,7 +5,7 @@ import Footer from "./components/shared/footer/footer";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "CodetMat",
+  title: "CoderMat",
   description: "Your web solution",
   icons: {
     icon: [
