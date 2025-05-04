@@ -287,5 +287,103 @@
         "description": "We conduct rigorous usability testing to identify any pain points or areas for improvement. By gathering feedback from real users, we refine the design to ensure that your product meets the highest usability standards."
       }
     ]
+  },
+  {
+    "id": 8,
+    "image_url": "https://i.ibb.co.com/ABC1234/maintenance-icon.png",
+    "title": "Web Maintenance & Support",
+    "short_description": "Ensure your website stays secure, fast, and up-to-date with our comprehensive maintenance plans. We handle updates, backups, and performance tuning so you can focus on your business.",
+    "service_details_description": "At CoderMat, we provide ongoing web maintenance and support to keep your website running smoothly. From security patches to content updates, our team ensures your site remains secure, optimized, and aligned with the latest web standards. Let us handle the technical details while you focus on growing your business. Contact us today for worry-free website management! At CoderMat, we're your partners in maintaining a powerful online presence. Whether you need regular updates or emergency fixes, our team delivers reliable support tailored to your needs.",
+    "service_features": [
+      {
+        "id": 1,
+        "title": "Security Updates",
+        "description": "Regular security patches and vulnerability fixes to protect your website from threats."
+      },
+      {
+        "id": 2,
+        "title": "Performance Optimization",
+        "description": "Continuous monitoring and tuning to ensure fast load times and smooth user experiences."
+      },
+      {
+        "id": 3,
+        "title": "Content Updates",
+        "description": "Quick and efficient updates to your website's content, images, and products."
+      },
+      {
+        "id": 4,
+        "title": "Backup Solutions",
+        "description": "Automated daily/weekly backups to prevent data loss."
+      },
+      {
+        "id": 5,
+        "title": "Uptime Monitoring",
+        "description": "24/7 monitoring to detect and resolve downtime issues immediately."
+      },
+      {
+        "id": 6,
+        "title": "SEO Maintenance",
+        "description": "Keep your SEO strategies current with regular audits and adjustments."
+      },
+      {
+        "id": 7,
+        "title": "Plugin/Module Updates",
+        "description": "Management of third-party integrations to ensure compatibility."
+      },
+      {
+        "id": 8,
+        "title": "Priority Support",
+        "description": "Dedicated help for urgent issues with fast response times."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "image_url": "https://i.ibb.co.com/ABC1234/personal-brand-icon.png",
+    "title": "Personal Branding Websites",
+    "short_description": "Elevate your digital presence with a custom website that showcases your unique personality, skills, and portfolio. Perfect for creatives, executives, and industry thought leaders.",
+    "service_details_description": "At CoderMat, we craft distinctive personal branding websites that make you stand out in your field. Whether you're an artist, speaker, entrepreneur, or professional, we design sites that authentically represent your personal brand while maximizing opportunities and connections. From minimalist portfolios to interactive resume sites, we build digital homes that turn visitors into collaborators, clients, and followers. Let's create a website that's as unique as you are! At CoderMat, we blend design psychology with technical excellence to ensure your personal site makes lasting impressions and opens doors.",
+    "service_features": [
+      {
+        "id": 1,
+        "title": "Signature Style",
+        "description": "Custom designs reflecting your personal aesthetic, colors, and visual identity"
+      },
+      {
+        "id": 2,
+        "title": "Bio/Story Section",
+        "description": "Engaging 'About Me' layouts that showcase your journey and personality"
+      },
+      {
+        "id": 3,
+        "title": "Portfolio Showcase",
+        "description": "Elegant displays for your work (art, writing, projects, or career achievements)"
+      },
+      {
+        "id": 4,
+        "title": "Media Appearances",
+        "description": "Curated sections for press features, podcasts, and speaking engagements"
+      },
+      {
+        "id": 5,
+        "title": "Contact Strategy",
+        "description": "Smart contact points tailored to your goals (collaborations, speaking requests, etc.)"
+      },
+      {
+        "id": 6,
+        "title": "Content Hub",
+        "description": "Integrated blog/vlog/newsletter sections to share your expertise"
+      },
+      {
+        "id": 7,
+        "title": "Social Media Integration",
+        "description": "Seamless connections to your Instagram, LinkedIn, or other platforms"
+      },
+      {
+        "id": 8,
+        "title": "Personal Domain Setup",
+        "description": "Assistance with securing and configuring yourname.com for maximum impact"
+      }
+    ]
   }
 ]
