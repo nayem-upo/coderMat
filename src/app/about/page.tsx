@@ -128,6 +128,13 @@ const AboutUs = () => {
                 to improving engagement, we focus on results that directly
                 impact your bottom line.
               </li>
+              <li>
+                <span className="font-bold text-xl">
+                  Scalable & Future-Proof Solutions:
+                </span>{" "}
+                We build with growth in mind—using modern technologies and best practices
+                to ensure your website is scalable, secure, and easy to maintain as your business evolves.
+              </li>
             </ul>
           </div>
           <div className="p-6 rounded-lg max-w-md">
