@@ -44,7 +44,7 @@ const Projetcs = () => {
   };
 
   return (
-    <div className="text-white min-h-screen ">
+    <div className="text-white min-h-screen">
       <Image
         className="absolute py-52"
         width={500}
@@ -52,7 +52,7 @@ const Projetcs = () => {
         src="https://i.ibb.co/9bBMgsX/Background.png"
         alt="Background"
       />
-      <div className="lg:mx-10 max-w-7xl mx-auto pb-20">
+      <div className="max-w-7xl mx-auto pb-20">
         <div className="pt-20 md:pt-28 pb-16">
           <h1 className="text-center font-bold md:text-4xl text-2xl">
             Our Latest Projects
@@ -66,15 +66,15 @@ const Projetcs = () => {
         <div className=" grid md:grid-cols-2 lg:grid-cols-3 lg:mr-16 items-center justify-center gap-4 lg:gap-20 relative px-4">
           {loading
             ? // Render skeleton loader while loading
-              Array.from({ length: visibleProjects }).map((_, index) => (
-                <ProjectCardSkeleton key={index} />
-              ))
+            Array.from({ length: visibleProjects }).map((_, index) => (
+              <ProjectCardSkeleton key={index} />
+            ))
             : // Render actual project cards after data is fetched
-              projects
-                .slice(0, visibleProjects)
-                .map((project) => (
-                  <ProjectCard project={project} key={project.id} />
-                ))}
+            projects
+              .slice(0, visibleProjects)
+              .map((project) => (
+                <ProjectCard project={project} key={project.id} />
+              ))}
         </div>
       </div>
       <div className="border-t">

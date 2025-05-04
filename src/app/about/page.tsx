@@ -88,7 +88,7 @@ const AboutUs = () => {
 
         <section className="flex flex-col md:flex-row justify-between items-start gap-10 mb-16">
 
-          <div>
+          <div className="md:me-12">
             <h2 className="text-2xl md:text-3xl font-bold mb-6">
               Why Choose Us
             </h2>
@@ -134,10 +134,10 @@ const AboutUs = () => {
             <div className="flex items-center mb-4 md:w-[300px] lg:w-full">
               <Image
                 src="https://i.ibb.co.com/XfWkQmB9/Beige-Minimalist-Rectangular-Menu-Collage-Cafe-Facebook-Post.png"
-                className="bg-white/10 pt-10 rounded-xl md:transform md:scale-x-[-1]"
+                className="bg-white/10 pt-10 rounded-xl md:transform"
                 alt="Next Image Description"
-                width={600}
-                height={400}
+                width={700}
+                height={450}
                 layout="intrinsic"
               />
             </div>
@@ -164,11 +164,11 @@ const AboutUs = () => {
               />
             </div>
 
-            {/* <p className="font-semibold text-xl text-center">
-              <span className="text-2xl font-bold">Shakil Ahmed</span>{" "}
+            <p className="font-semibold text-xl text-center">
+              <span className="text-2xl font-bold">Team</span>{" "}
               <br className=" md:hidden" />
-              <span className="text-sm font-medium">Co-founder & CEO</span>
-            </p> */}
+              <span className="text-sm font-medium">CoderMat</span>
+            </p>
           </div>
 
           <div>

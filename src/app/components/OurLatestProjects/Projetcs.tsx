@@ -81,15 +81,15 @@ const Projetcs = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto items-center justify-center lg:gap-x-8 lg:gap-y-10 gap-y-10 relative px-5 md:px-8 lg:px-0">
           {loading
             ? // Render skeleton loader while loading
-              Array.from({ length: visibleProjects }).map((_, index) => (
-                <ProjectCardSkeleton key={index} />
-              ))
+            Array.from({ length: visibleProjects }).map((_, index) => (
+              <ProjectCardSkeleton key={index} />
+            ))
             : // Render actual project cards after data is fetched
-              projects
-                .slice(0, visibleProjects)
-                .map((project) => (
-                  <ProjectCard project={project} key={project.id} />
-                ))}
+            projects
+              .slice(0, visibleProjects)
+              .map((project) => (
+                <ProjectCard project={project} key={project.id} />
+              ))}
         </div>
 
         {/* Show more projects button */}
