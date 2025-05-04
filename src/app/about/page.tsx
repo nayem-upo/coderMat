@@ -86,7 +86,7 @@ const AboutUs = () => {
           </div>
         </section>
 
-        <section className="flex flex-col md:flex-row justify-between items-start gap-10 mb-16">
+        <section className="flex flex-col-reverse md:flex-row justify-between items-start gap-10 mb-16">
 
           <div className="md:w-[600px]">
             <h2 className="text-2xl md:text-3xl font-bold mb-6">
