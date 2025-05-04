@@ -88,7 +88,7 @@ const AboutUs = () => {
 
         <section className="flex flex-col md:flex-row justify-between items-start gap-10 mb-16">
 
-          <div className="md:me-12">
+          <div className="md:w-[600px]">
             <h2 className="text-2xl md:text-3xl font-bold mb-6">
               Why Choose Us
             </h2>
@@ -134,10 +134,10 @@ const AboutUs = () => {
             <div className="flex items-center mb-4 md:w-[300px] lg:w-full">
               <Image
                 src="https://i.ibb.co.com/XfWkQmB9/Beige-Minimalist-Rectangular-Menu-Collage-Cafe-Facebook-Post.png"
-                className="bg-white/10 pt-10 rounded-xl md:transform"
+                className="bg-white/10 pt-5 rounded-xl md:transform"
                 alt="Next Image Description"
                 width={700}
-                height={450}
+                height={500}
                 layout="intrinsic"
               />
             </div>
