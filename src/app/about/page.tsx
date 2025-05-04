@@ -86,51 +86,92 @@ const AboutUs = () => {
           </div>
         </section>
 
-        {/* Bottom section */}
-        <section className="flex flex-col md:flex-row items-start justify-items-end gap-10">
-          <div className="max-w-xl">
-            <div>
-              <h2 className="text-2xl md:text-3xl font-bold mb-6">
-                Why Choose Us
-              </h2>
-              <p className="mb-6 hidden">
-                We believe that collaboration is key to the success of any
-                project. Our process starts with understanding your goals,
-                audience, and objectives. From there, we combine design,
-                functionality, and usability to create digital solutions that
-                work seamlessly and deliver measurable results. Every step of
-                our process is guided by a desire to solve your problems, not
-                just create a website.
-              </p>
+        <section className="flex flex-col md:flex-row justify-between items-start gap-10 mb-16">
 
-              <ul className="list-disc pl-6 mb-6">
-                <li>
-                  <span className="font-bold text-xl">
-                    Custom Design & Development:
-                  </span>{" "}
-                  Every project is unique. We don’t rely on templates but create
-                  custom, responsive designs that reflect your brand and meet
-                  your specific needs.
-                </li>
-                <li>
-                  <span className="font-bold text-xl">
-                    User-Centered Approach:
-                  </span>{" "}
-                  Whether you need to build a brand-new website or revamp an
-                  existing one, we ensure that your users have a seamless and
-                  satisfying experience.
-                </li>
-                <li>
-                  <span className="font-bold text-xl">
-                    Results-Driven Strategy:
-                  </span>{" "}
-                  Our work isn’t just about looking good; it’s about achieving
-                  the business goals that matter. From boosting conversion rates
-                  to improving engagement, we focus on results that directly
-                  impact your bottom line.
-                </li>
-              </ul>
+          <div>
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              Why Choose Us
+            </h2>
+            <p className="mb-6 hidden">
+              We believe that collaboration is key to the success of any
+              project. Our process starts with understanding your goals,
+              audience, and objectives. From there, we combine design,
+              functionality, and usability to create digital solutions that
+              work seamlessly and deliver measurable results. Every step of
+              our process is guided by a desire to solve your problems, not
+              just create a website.
+            </p>
+
+            <ul className="list-disc pl-6 mb-6">
+              <li>
+                <span className="font-bold text-xl">
+                  Custom Design & Development:
+                </span>{" "}
+                Every project is unique. We don’t rely on templates but create
+                custom, responsive designs that reflect your brand and meet
+                your specific needs.
+              </li>
+              <li>
+                <span className="font-bold text-xl">
+                  User-Centered Approach:
+                </span>{" "}
+                Whether you need to build a brand-new website or revamp an
+                existing one, we ensure that your users have a seamless and
+                satisfying experience.
+              </li>
+              <li>
+                <span className="font-bold text-xl">
+                  Results-Driven Strategy:
+                </span>{" "}
+                Our work isn’t just about looking good; it’s about achieving
+                the business goals that matter. From boosting conversion rates
+                to improving engagement, we focus on results that directly
+                impact your bottom line.
+              </li>
+            </ul>
+          </div>
+          <div className="p-6 rounded-lg max-w-md">
+            <div className="flex items-center mb-4 md:w-[300px] lg:w-full">
+              <Image
+                src="https://i.ibb.co.com/XfWkQmB9/Beige-Minimalist-Rectangular-Menu-Collage-Cafe-Facebook-Post.png"
+                className="bg-white/10 pt-10 rounded-xl md:transform md:scale-x-[-1]"
+                alt="Next Image Description"
+                width={600}
+                height={400}
+                layout="intrinsic"
+              />
             </div>
+
+            <p className="font-semibold text-xl text-center">
+              <span className="text-2xl font-bold">Nayem Islam</span>{" "}
+              <br className=" md:hidden" />
+              <span className="text-sm font-medium">Co-founder & CEO</span>
+            </p>
+          </div>
+        </section>
+
+        <section className="flex flex-col md:flex-row justify-between items-start gap-10 mb-16">
+          {/* Testimonial */}
+          <div className=" p-6 rounded-lg max-w-md">
+            <div className="flex items-center mb-4 md:w-[300px] lg:w-full">
+              <Image
+                src=""
+                className="bg-white/10 pt-10 rounded-xl md:transform md:scale-x-[-1]"
+                alt="Next Image Description"
+                width={600}
+                height={400}
+                layout="intrinsic"
+              />
+            </div>
+
+            {/* <p className="font-semibold text-xl text-center">
+              <span className="text-2xl font-bold">Shakil Ahmed</span>{" "}
+              <br className=" md:hidden" />
+              <span className="text-sm font-medium">Co-founder & CEO</span>
+            </p> */}
+          </div>
+
+          <div>
             <h2 className="text-2xl md:text-3xl font-bold mb-6">Our Process</h2>
             <p className="mb-6">
               We believe that collaboration is essential for the success of any
@@ -142,55 +183,41 @@ const AboutUs = () => {
               just to create a website.
             </p>
 
-            <ul className="list-disc pl-6 mb-6">
-              <li>
-                <span className="font-bold text-xl">Discovery & Strategy:</span>{" "}
-                We begin by understanding your business, industry, and goals so
-                we can develop a strategy that works for you.
-              </li>
-              <li>
-                <span className="font-bold text-xl">Design & Development:</span>{" "}
-                Our design team creates custom, user-friendly designs that
-                reflect your brand, while our developers ensure that the website
-                is fast, secure, and scalable.
-              </li>
-              <li>
-                <span className="font-bold text-xl">Testing & Launch:</span>{" "}
-                Before going live, we test everything to ensure it’s perfect.
-                From performance to usability, we ensure your website works
-                flawlessly.
-              </li>
-              <li>
-                <span className="font-bold text-xl">
-                  Support & Optimization:
-                </span>{" "}
-                After launch, we continue to support and optimize your website
-                to ensure it remains up-to-date and effective in achieving your
-                goals.
-              </li>
-            </ul>
+            <div>
+              <ul className="list-disc pl-6 mb-6">
+                <li>
+                  <span className="font-bold text-xl">Discovery & Strategy:</span>{" "}
+                  We begin by understanding your business, industry, and goals so
+                  we can develop a strategy that works for you.
+                </li>
+                <li>
+                  <span className="font-bold text-xl">Design & Development:</span>{" "}
+                  Our design team creates custom, user-friendly designs that
+                  reflect your brand, while our developers ensure that the website
+                  is fast, secure, and scalable.
+                </li>
+                <li>
+                  <span className="font-bold text-xl">Testing & Launch:</span>{" "}
+                  Before going live, we test everything to ensure it’s perfect.
+                  From performance to usability, we ensure your website works
+                  flawlessly.
+                </li>
+                <li>
+                  <span className="font-bold text-xl">
+                    Support & Optimization:
+                  </span>{" "}
+                  After launch, we continue to support and optimize your website
+                  to ensure it remains up-to-date and effective in achieving your
+                  goals.
+                </li>
+              </ul>
+            </div>
 
             <p className="mb-6">
               With <span className="font-bold text-xl">CoderMat</span>, you are
               not just getting a website — you are gaining a partner devoted to
               your business's success. Allow us to assist you in elevating your
               digital presence to the next level.
-            </p>
-          </div>
-          <div className="bg-white/10 p-6 rounded-lg max-w-md">
-            <div className="flex items-center mb-4 md:w-[300px] lg:w-full">
-              <Image
-                src="https://www.infomazeelite.com/wp-content/uploads/2022/03/Hire-Dedicated-Development-Team.png"
-                alt="Discord Logo"
-                width={1200}
-                height={800}
-                className="w-full"
-                layout="intrinsic"
-              />
-            </div>
-            <p className="font-bold text-xl">
-              <span className="font-bold text-xl">Team</span>{" "}
-              <span className="font-bold text-xl">CoderMat</span>
             </p>
           </div>
         </section>

@@ -50,10 +50,10 @@ export default function Home() {
       <section className="bg-gradient-to-b from-[#21112E] via-[#280d42] to-[#280d42]">
         <Services />
       </section>
-      {/* 
+
       <section className="text-white bg-gradient-to-b from-[#181819] to-[#1F122A] border-b">
         <WhyChooseUs />
-      </section> */}
+      </section>
 
       <section className="bg-gradient-to-t from-[#181819] to-[#21122F]">
         <div>

@@ -108,7 +108,7 @@ export default function HeroSection() {
         }
       `}</style>
 
-      <section className="pt-20 pb-10 md:pb-0 md:pt-0 flex items-center justify-center md:p-3 lg:p-8">
+      <section className="pt-20 pb-10 md:pb-0 md:pt-0 flex items-center justify-center md:p-3 lg:p-8 3xl:pt-[250px]">
         <div className="flex flex-col gap-2 lg:gap-0 items-center justify-center md:flex-row max-w-5xl mx-auto w-full text-white md:pt-20 lg:pt-0 md:px-10 lg:px-0">
           {/* Left Section */}
           <div className="flex-1 mb-8 md:mb-0 animate-bottom">
@@ -221,7 +221,7 @@ export default function HeroSection() {
               alt="Tailwind CSS Icon"
               width={540}
               height={540}
-              className="animate-spin-then-straight w-[80px] absolute bottom-10 2xl:-bottom-[50px] hidden md:block lg:block left-[540px] 2xl:left-[600px]"
+              className="animate-spin-then-straight w-[80px] absolute bottom-10 2xl:-bottom-[50px] hidden md:hidden lg:block left-[540px] 2xl:left-[600px]"
             />
             {/* <Image
               src="https://i.postimg.cc/pX2N6M2g/react.png"

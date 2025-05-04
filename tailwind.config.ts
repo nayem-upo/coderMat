@@ -36,6 +36,9 @@ const config: Config = {
           },
         },
       },
+      screens: {
+        '3xl': '1540px',
+      },
     },
   },
   plugins: [],
