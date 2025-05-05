@@ -8,7 +8,7 @@ const ScrollDownArrow = () => {
   if (!showArrow) return null;
 
   return (
-    <div className="w-full flex flex-col items-center md:mt-40 lg:-mt-14 2xl:mt-28">
+    <div className="w-full flex flex-col items-center">
       {/* Arrow with bounce animation */}
       <div className="flex flex-col items-center animate-bounce">
         <div className="w-px h-8 bg-white"></div>

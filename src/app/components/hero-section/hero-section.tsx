@@ -51,7 +51,7 @@ export default function HeroSection() {
   };
 
   return (
-    <div>
+    <div className="h-screen flex flex-col justify-between items-center">
       <ToastContainer />
 
       <style jsx>{`
@@ -108,7 +108,7 @@ export default function HeroSection() {
         }
       `}</style>
 
-      <section className="pt-20 pb-10 md:pb-0 md:pt-0 flex items-center justify-center md:p-3 lg:p-8 3xl:pt-[250px]">
+      <section className="pt-20 pb-10 md:pb-0 md:pt-0 flex items-center justify-center md:p-3 lg:p-8">
         <div className="flex flex-col gap-2 lg:gap-0 items-center justify-center md:flex-row max-w-5xl mx-auto w-full text-white md:pt-20 lg:pt-0 md:px-10 lg:px-0">
           {/* Left Section */}
           <div className="flex-1 mb-8 md:mb-0 animate-bottom">
