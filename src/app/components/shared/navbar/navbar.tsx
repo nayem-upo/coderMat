@@ -41,9 +41,8 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`roboto-regular tracking-wide py-3 fixed top-0 left-0 w-full transition-colors duration-300 z-30  ${
-        scrolled ? "bg-[#21112e] bg-opacity-85 shadow-2xl " : "bg-transparent "
-      }`}
+      className={`roboto-regular tracking-wide py-3 fixed top-0 left-0 w-full transition-colors duration-300 z-30  ${scrolled ? "bg-[#21112e] bg-opacity-85 shadow-2xl " : "bg-transparent "
+        }`}
     >
       <div className="max-w-7xl 2xl:max-w-[105rem] mx-auto px-2 sm:px-6 lg:px-8 ">
         <div className="relative flex items-center  justify-between md:h-16">
@@ -51,11 +50,11 @@ export default function Navbar() {
             <div className="flex-shrink-0">
               <Link href="/">
                 <Image
-                  className="w-28 lg:w-[150px]"
+                  className="w-28 lg:w-[150px] duration-300"
                   src="https://i.postimg.cc/pXrT6fkh/Rectangle-4.png"
                   alt="CoderMat"
                   width={112}
-                  height={400}
+                  height={40}
                 />
               </Link>
             </div>
@@ -66,11 +65,10 @@ export default function Navbar() {
               <Link
                 href="/"
                 onClick={() => setActiveLink("home")}
-                className={`${
-                  activeLink === "home"
-                    ? "bg-white/20 text-white"
-                    : "text-white hover:bg-white/20 hover:text-white"
-                } px-3 py-2 rounded-md  font-medium`}
+                className={`${activeLink === "home"
+                  ? "bg-white/20 text-white"
+                  : "text-white hover:bg-white/20 hover:text-white"
+                  } px-3 py-2 rounded-md  font-medium`}
               >
                 Home
               </Link>
@@ -85,11 +83,10 @@ export default function Navbar() {
                     setActiveLink("services");
                     setDropdownOpenTech(!dropdownOpenTech);
                   }}
-                  className={`${
-                    activeLink === "services"
-                      ? "bg-white/20 text-white"
-                      : "text-white hover:bg-white/20 hover:text-white"
-                  } px-3 py-2 rounded-md  font-medium  flex items-center  gap-2`}
+                  className={`${activeLink === "services"
+                    ? "bg-white/20 text-white"
+                    : "text-white hover:bg-white/20 hover:text-white"
+                    } px-3 py-2 rounded-md  font-medium  flex items-center  gap-2`}
                 >
                   Services
                   <IoIosArrowDown></IoIosArrowDown>
@@ -97,7 +94,7 @@ export default function Navbar() {
                 {dropdownOpenTech && (
                   <div
                     className="absolute -left-[290px]  mt-10 w-max  backdrop-blur-3xl bg-[#381c4489] border-[#72006A] border-2 rounded-xl text-white shadow-lg p-6 grid grid-cols-4 gap-4"
-                    style={{ minWidth: "300px" }} // Adjust minWidth as needed
+                    style={{ minWidth: "300px" }}
                   >
                     {/* Services Dropdown Content */}
                     <div>
@@ -305,11 +302,10 @@ export default function Navbar() {
                     setActiveLink("technologies");
                     setDropdownOpen(!dropdownOpen);
                   }}
-                  className={`${
-                    activeLink === "technologies"
-                      ? "bg-white/20 text-white"
-                      : "text-white hover:bg-white/20 hover:text-white"
-                  } px-3 py-2 rounded-md font-medium flex items-center gap-2`}
+                  className={`${activeLink === "technologies"
+                    ? "bg-white/20 text-white"
+                    : "text-white hover:bg-white/20 hover:text-white"
+                    } px-3 py-2 rounded-md font-medium flex items-center gap-2`}
                 >
                   Technologies
                   <IoIosArrowDown />
@@ -910,44 +906,40 @@ export default function Navbar() {
               <Link
                 href="/about"
                 onClick={() => setActiveLink("About ")}
-                className={`${
-                  activeLink === "About "
-                    ? "bg-white/20 text-white"
-                    : "text-white hover:bg-white/20 hover:text-white"
-                } px-3 py-2 rounded-md  font-medium hidden lg:block`}
+                className={`${activeLink === "About "
+                  ? "bg-white/20 text-white"
+                  : "text-white hover:bg-white/20 hover:text-white"
+                  } px-3 py-2 rounded-md  font-medium hidden lg:block`}
               >
                 About
               </Link>
               <Link
                 href="/projects"
                 onClick={() => setActiveLink("projects")}
-                className={`${
-                  activeLink === "projects"
-                    ? "bg-white/20 text-white"
-                    : "text-white hover:bg-white/20 hover:text-white"
-                } px-3 py-2 rounded-md  font-medium hidden lg:block`}
+                className={`${activeLink === "projects"
+                  ? "bg-white/20 text-white"
+                  : "text-white hover:bg-white/20 hover:text-white"
+                  } px-3 py-2 rounded-md  font-medium hidden lg:block`}
               >
                 Projects
               </Link>
               <Link
                 href="/pricing"
                 onClick={() => setActiveLink("pricing")}
-                className={`${
-                  activeLink === "pricing"
-                    ? "bg-white/20 text-white"
-                    : "text-white hover:bg-white/20 hover:text-white"
-                } px-3 py-2 rounded-md  font-medium hidden lg:block`}
+                className={`${activeLink === "pricing"
+                  ? "bg-white/20 text-white"
+                  : "text-white hover:bg-white/20 hover:text-white"
+                  } px-3 py-2 rounded-md  font-medium hidden lg:block`}
               >
                 Pricing
               </Link>
               <Link
                 href="/blogs"
                 onClick={() => setActiveLink("Blogs")}
-                className={`${
-                  activeLink === "Blogs"
-                    ? "bg-white/20 text-white"
-                    : "text-white hover:bg-white/20 hover:text-white"
-                } px-3 py-2 rounded-md  font-medium hidden lg:block`}
+                className={`${activeLink === "Blogs"
+                  ? "bg-white/20 text-white"
+                  : "text-white hover:bg-white/20 hover:text-white"
+                  } px-3 py-2 rounded-md  font-medium hidden lg:block`}
               >
                 Blogs & News
               </Link>
@@ -967,22 +959,20 @@ export default function Navbar() {
                 <Link
                   href="/about"
                   onClick={() => setActiveLink("About")}
-                  className={`block px-3 py-2 rounded-md font-medium ${
-                    activeLink === "About"
-                      ? "bg-gray-100 text-black"
-                      : "hover:bg-gray-200"
-                  }`}
+                  className={`block px-3 py-2 rounded-md font-medium ${activeLink === "About"
+                    ? "bg-gray-100 text-black"
+                    : "hover:bg-gray-200"
+                    }`}
                 >
                   About
                 </Link>
                 <Link
                   href="/pricing"
                   onClick={() => setActiveLink("pricing")}
-                  className={`block px-3 py-2 rounded-md font-medium ${
-                    activeLink === "pricing"
-                      ? "bg-gray-100 text-black"
-                      : "hover:bg-gray-200"
-                  }`}
+                  className={`block px-3 py-2 rounded-md font-medium ${activeLink === "pricing"
+                    ? "bg-gray-100 text-black"
+                    : "hover:bg-gray-200"
+                    }`}
                 >
                   Pricing
                 </Link>
@@ -1044,8 +1034,8 @@ export default function Navbar() {
                   strokeWidth="2"
                   d={
                     isOpen
-                      ? "M6 18L18 6M6 6l12 12" // Cross (X) icon for the open state
-                      : "M4 6h16M4 12h16M4 18h16" // Three equal horizontal lines for the closed state
+                      ? "M6 18L18 6M6 6l12 12"
+                      : "M4 6h16M4 12h16M4 18h16"
                   }
                 />
               </svg>
@@ -1056,9 +1046,8 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <div
-        className={`sm:hidden fixed top-0 left-0 w-full h-full bg-gradient-to-l from-[#36184bdd] to-[#49165C] text-white z-40 transition-transform ${
-          isOpen ? "translate-x-0" : "-translate-x-full"
-        }`}
+        className={`sm:hidden fixed top-0 left-0 w-full h-full bg-gradient-to-l from-[#36184bdd] to-[#49165C] text-white z-40 transition-transform ${isOpen ? "translate-x-0" : "-translate-x-full"
+          }`}
       >
         <div className="flex justify-between items-center px-4 py-3 border-b border-gray-700">
           <h2 className="text-white text-lg font-bold">Menu</h2>
@@ -1067,11 +1056,10 @@ export default function Navbar() {
           <a
             href="/"
             onClick={() => setActiveLink("home")}
-            className={`block px-3 py-2 rounded-md text-base font-medium ${
-              activeLink === "home"
-                ? "bg-gradient-to-l from-[#49156D] to-[#930087] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
-                : "hover:bg-gradient-to-l from-[#49156D] to-[#49165C] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
-            }`}
+            className={`block px-3 py-2 rounded-md text-base font-medium ${activeLink === "home"
+              ? "bg-gradient-to-l from-[#49156D] to-[#930087] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
+              : "hover:bg-gradient-to-l from-[#49156D] to-[#49165C] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
+              }`}
           >
             Home
           </a>
@@ -1082,24 +1070,21 @@ export default function Navbar() {
                 setActiveLink("services");
                 setDropdownOpenTech(!dropdownOpenTech); // Toggle services dropdown
               }}
-              className={`px-3 py-2 rounded-md text-base font-medium flex items-center  justify-between ${
-                activeLink === "services"
-                  ? "bg-gradient-to-l from-[#49156D] to-[#930087] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
-                  : "hover:bg-gradient-to-l from-[#49156D] to-[#49165C] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
-              }`}
+              className={`px-3 py-2 rounded-md text-base font-medium flex items-center  justify-between ${activeLink === "services"
+                ? "bg-gradient-to-l from-[#49156D] to-[#930087] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
+                : "hover:bg-gradient-to-l from-[#49156D] to-[#49165C] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
+                }`}
             >
               Services
               <IoIosArrowDown
-                className={`transform transition-transform duration-300 ${
-                  dropdownOpenTech ? "rotate-180" : ""
-                }`}
+                className={`transform transition-transform duration-300 ${dropdownOpenTech ? "rotate-180" : ""
+                  }`}
               />
             </a>
 
             <div
-              className={`overflow-hidden transition-[max-height] duration-300 ease-in-out ${
-                dropdownOpenTech ? "max-h-[500px]" : "max-h-0"
-              }`}
+              className={`overflow-hidden transition-[max-height] duration-300 ease-in-out ${dropdownOpenTech ? "max-h-[500px]" : "max-h-0"
+                }`}
             >
               <div className="backdrop-blur-3xl bg-[#381c4489] border-[#72006A] border-2 rounded-md text-white shadow-lg mt-2 p-4">
                 <ul className="space-y-2">
@@ -1137,11 +1122,10 @@ export default function Navbar() {
                 setActiveLink("technologies");
                 setDropdownOpen(!dropdownOpen); // Toggle technologies dropdown
               }}
-              className={`px-3 py-2 rounded-md text-base font-medium flex items-center  justify-between ${
-                activeLink === "technologies"
-                  ? "bg-gradient-to-l from-[#49156D] to-[#930087] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
-                  : "hover:bg-gradient-to-l from-[#49156D] to-[#49165C] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
-              }`}
+              className={`px-3 py-2 rounded-md text-base font-medium flex items-center  justify-between ${activeLink === "technologies"
+                ? "bg-gradient-to-l from-[#49156D] to-[#930087] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
+                : "hover:bg-gradient-to-l from-[#49156D] to-[#49165C] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
+                }`}
             >
               Technologies
               <IoIosArrowDown
@@ -1149,9 +1133,8 @@ export default function Navbar() {
               />
             </a>
             <div
-              className={`transition-all duration-300 ease-out overflow-hidden ${
-                dropdownOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
-              } backdrop-blur-3xl bg-[#381c4489] border-[#72006A] border-2 rounded-md text-white shadow-lg`}
+              className={`transition-all duration-300 ease-out overflow-hidden ${dropdownOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+                } backdrop-blur-3xl bg-[#381c4489] border-[#72006A] border-2 rounded-md text-white shadow-lg`}
             >
               {/* Adjust grid-cols for responsiveness */}
               <div className="px-4 pt-2">
@@ -1206,22 +1189,20 @@ export default function Navbar() {
           <a
             href="/about"
             onClick={() => setActiveLink("about")}
-            className={`block px-3 py-2 rounded-md text-base font-medium ${
-              activeLink === "about"
-                ? "bg-gradient-to-l from-[#49156D] to-[#930087] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
-                : "hover:bg-gradient-to-l from-[#49156D] to-[#49165C] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
-            }`}
+            className={`block px-3 py-2 rounded-md text-base font-medium ${activeLink === "about"
+              ? "bg-gradient-to-l from-[#49156D] to-[#930087] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
+              : "hover:bg-gradient-to-l from-[#49156D] to-[#49165C] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
+              }`}
           >
             About
           </a>
           <a
             href="/pricing"
             onClick={() => setActiveLink("pricing")}
-            className={`block px-3 py-2 rounded-md text-base font-medium ${
-              activeLink === "pricing"
-                ? "bg-gradient-to-l from-[#49156D] to-[#930087] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
-                : "hover:bg-gradient-to-l from-[#49156D] to-[#49165C] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
-            }`}
+            className={`block px-3 py-2 rounded-md text-base font-medium ${activeLink === "pricing"
+              ? "bg-gradient-to-l from-[#49156D] to-[#930087] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
+              : "hover:bg-gradient-to-l from-[#49156D] to-[#49165C] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
+              }`}
           >
             Pricing
           </a>
@@ -1229,22 +1210,20 @@ export default function Navbar() {
           <a
             href="/projects"
             onClick={() => setActiveLink("projects")}
-            className={`block px-3 py-2 rounded-md text-base font-medium ${
-              activeLink === "projects"
-                ? "bg-gradient-to-l from-[#49156D] to-[#930087] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
-                : "hover:bg-gradient-to-l from-[#49156D] to-[#49165C] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
-            }`}
+            className={`block px-3 py-2 rounded-md text-base font-medium ${activeLink === "projects"
+              ? "bg-gradient-to-l from-[#49156D] to-[#930087] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
+              : "hover:bg-gradient-to-l from-[#49156D] to-[#49165C] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
+              }`}
           >
             Projects
           </a>
           <a
             href="/blogs"
             onClick={() => setActiveLink("blogs")}
-            className={`block px-3 py-2 rounded-md text-base font-medium ${
-              activeLink === "blogs"
-                ? "bg-gradient-to-l from-[#49156D] to-[#930087] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
-                : "hover:bg-gradient-to-l from-[#49156D] to-[#49165C] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
-            }`}
+            className={`block px-3 py-2 rounded-md text-base font-medium ${activeLink === "blogs"
+              ? "bg-gradient-to-l from-[#49156D] to-[#930087] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
+              : "hover:bg-gradient-to-l from-[#49156D] to-[#49165C] text-white hover:border-[#c445ff] hover:from-[#6C00A5] hover:to-[#6A0170] duration-150"
+              }`}
           >
             Blogs & News
           </a>

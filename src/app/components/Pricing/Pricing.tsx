@@ -54,21 +54,21 @@ const Pricing = () => {
   const formatPrice = (
     plan:
       | {
-          title: string;
-          priceBDT: number;
-          priceUSD: number;
-          features: string[];
-          ctaText: string;
-          recommended?: undefined;
-        }
+        title: string;
+        priceBDT: number;
+        priceUSD: number;
+        features: string[];
+        ctaText: string;
+        recommended?: undefined;
+      }
       | {
-          title: string;
-          priceBDT: number;
-          priceUSD: number;
-          features: string[];
-          ctaText: string;
-          recommended: boolean;
-        }
+        title: string;
+        priceBDT: number;
+        priceUSD: number;
+        features: string[];
+        ctaText: string;
+        recommended: boolean;
+      }
   ) => {
     return currency === "BDT"
       ? `৳${plan.priceBDT.toLocaleString()}`
@@ -97,9 +97,8 @@ const Pricing = () => {
           {pricingPlans.map((plan, index) => (
             <div
               key={index}
-              className={`relative grid gap-4 mx-auto bg-gradient-to-br from-[#2D1B38] to-[#1E1227] p-8 rounded-3xl shadow-xl md:w-[360px] w-[330px] hover:scale-105 transition-all duration-300 ${
-                plan.recommended ? "border-t-4 border-[#7D1A8D]" : ""
-              }`}
+              className={`relative grid gap-4 mx-auto bg-gradient-to-br from-[#2D1B38] to-[#1E1227] p-8 rounded-3xl shadow-xl md:w-[360px] w-[330px] hover:scale-105 transition-all duration-300 ${plan.recommended ? "border-t-4 border-[#7D1A8D]" : ""
+                }`}
             >
               {plan.recommended && (
                 <div className="absolute left-1/2 transform -translate-x-1/2 bg-[#7D1A8D] w-[240px] h-[30px] rounded-b-full flex justify-center items-center text-white text-lg">

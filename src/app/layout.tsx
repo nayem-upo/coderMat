@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   description: "Your web solution",
   icons: {
     icon: [
-      { url: "https://i.postimg.cc/VsjQSGwd/icon-for-meta.png" }, // Fallback for browsers that prefer .ico
+      { url: "https://i.postimg.cc/VsjQSGwd/icon-for-meta.png" },
       {
         url: "https://i.postimg.cc/VsjQSGwd/icon-for-meta.png",
         type: "image/png",
         sizes: "32x32",
-      }, // Modern browsers
+      },
     ],
   },
 };

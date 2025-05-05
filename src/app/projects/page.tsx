@@ -44,7 +44,7 @@ const Projetcs = () => {
   };
 
   return (
-    <div className="text-white min-h-screen">
+    <div className="text-white min-h-screen bg-gradient-to-bl from-[#93239d] via-[#190b34] to-[#280d42]">
       <Image
         className="absolute py-52"
         width={500}
