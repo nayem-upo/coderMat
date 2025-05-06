@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <>
       <section
-        className="relative min-h-screen md:pt-24 border-b bg-cover bg-center bg-no-repeat"
+        className="relative min-h-screen border-b bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
             "url('https://i.postimg.cc/hPDQGNGn/banner-final.jpg')",
@@ -46,7 +46,6 @@ export default function Home() {
           <HeroSection />
         </div>
       </section>
-
       <section className="bg-gradient-to-b from-[#21112E] via-[#280d42] to-[#280d42]">
         <Services />
       </section>

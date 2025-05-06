@@ -108,7 +108,7 @@ export default function HeroSection() {
         }
       `}</style>
 
-      <section className="pt-20 pb-10 md:pb-0 md:pt-0 flex items-center justify-center md:p-3 lg:p-8">
+      <section className="pt-20 pb-10 md:pb-0 md:mt-24 flex items-center justify-center md:p-3 lg:p-8">
         <div className="flex flex-col gap-2 lg:gap-0 items-center justify-center md:flex-row max-w-5xl mx-auto w-full text-white md:pt-20 lg:pt-0 md:px-10 lg:px-0">
           {/* Left Section */}
           <div className="flex-1 mb-8 md:mb-0 animate-bottom">
@@ -179,7 +179,7 @@ export default function HeroSection() {
                     type="text"
                     name="user_name"
                     placeholder="Full Name"
-                    className="w-full py-2 px-4 rounded-md bg-white bg-opacity-20 border border-transparent placeholder-white focus:outline-none focus:ring-2 focus:ring-[#c445ff]"
+                    className="w-full duration-300 py-2 px-4 rounded-md bg-white bg-opacity-20 border border-transparent placeholder-white focus:outline-none focus:ring-2 focus:ring-[#c445ff]"
                     required
                   />
                 </div>
@@ -188,7 +188,7 @@ export default function HeroSection() {
                     type="email"
                     name="user_email"
                     placeholder="Email"
-                    className="w-full py-2 px-4 rounded-md bg-white bg-opacity-20 border border-transparent placeholder-white focus:outline-none focus:ring-2 focus:ring-[#c445ff]"
+                    className="w-full duration-300 py-2 px-4 rounded-md bg-white bg-opacity-20 border border-transparent placeholder-white focus:outline-none focus:ring-2 focus:ring-[#c445ff]"
                     required
                   />
                 </div>
@@ -197,14 +197,14 @@ export default function HeroSection() {
                     type="text"
                     name="user_number"
                     placeholder="Number"
-                    className="w-full py-2 px-4 rounded-md bg-white bg-opacity-20 border border-transparent placeholder-white focus:outline-none focus:ring-2 focus:ring-[#c445ff]"
+                    className="w-full duration-300 py-2 px-4 rounded-md bg-white bg-opacity-20 border border-transparent placeholder-white focus:outline-none focus:ring-2 focus:ring-[#c445ff]"
                   />
                 </div>
                 <div>
                   <textarea
                     name="message"
                     placeholder="Describe Your Project Need."
-                    className="w-full py-2 px-4 rounded-md bg-white resize-none bg-opacity-20 border border-transparent placeholder-white focus:outline-none focus:ring-2 focus:ring-[#c445ff] h-32"
+                    className="w-full duration-300 py-2 px-4 rounded-md bg-white resize-none bg-opacity-20 border border-transparent placeholder-white focus:outline-none focus:ring-2 focus:ring-[#c445ff] h-32"
                     required
                   />
                 </div>
