@@ -11,6 +11,10 @@ export const articles: Article[] = [
     category: "Design",
     subTitle: "Guide for designing better mobile apps typography",
     cardImage: "https://cdn.mos.cms.futurecdn.net/xCSAEp8DjjrT2UQB87AoFN.jpg",
+    author: "Sarah Johnson",
+    author_image: "",
+    likes: 124,
+    comments: 50,
     content: {
       introduction:
         "As we continue to navigate the ever-evolving landscape of technology, web development stands out as a vital component of our digital world. With increasing user expectations and the complexity of internet ecosystems, the demand for bespoke web solutions is not just growing—it's essential. This blog explores why custom solutions are becoming increasingly important in web development and how they set businesses up for success in the digital future.",
@@ -50,6 +54,10 @@ export const articles: Article[] = [
     id: 2,
     title: "Why Mobile-First Design is Essential for Today's Web",
     image: "https://cdn.mos.cms.futurecdn.net/xCSAEp8DjjrT2UQB87AoFN.jpg",
+    author: "Sarah Johnson",
+    author_image: "",
+    likes: 124,
+    comments: 50,
     description:
       "With the majority of internet users accessing websites through mobile devices, mobile-first design has become crucial. Designing websites with a mobile-first approach ensures that users on smaller screens get an optimal experience, boosting engagement and conversion rates. This design strategy focuses on simplicity, faster load times, and intuitive navigation, all of which contribute to a more satisfying user experience. At CoderMat, we ensure that our web development approach always prioritizes mobile-first principles.",
     category: "UX/UI",
@@ -87,6 +95,10 @@ export const articles: Article[] = [
     id: 3,
     title: "The Importance of Website Speed for SEO and User Experience",
     image: "url_to_image_3.jpg",
+    author: "Sarah Johnson",
+    author_image: "",
+    likes: 124,
+    comments: 50,
     description:
       "Website speed is no longer just a performance metric; it is a critical factor for SEO and user experience. Slow websites can lead to higher bounce rates, lower search rankings, and dissatisfied users. In this blog, we explore how website speed impacts SEO, the steps you can take to optimize your site’s performance, and why prioritizing speed is essential for long-term success.",
     category: "SEO",
@@ -125,6 +137,10 @@ export const articles: Article[] = [
     id: 4,
     title: "How to Enhance Your Website's User Experience in 2024",
     image: "url_to_image_2.jpg",
+    author: "Sarah Johnson",
+    author_image: "",
+    likes: 124,
+    comments: 50,
     description:
       "User experience is more important than ever as websites compete for attention. In 2024, websites must be fast, intuitive, and tailored to users' needs. This blog explains how to enhance user experience and improve customer satisfaction by focusing on design and functionality.",
     category: "Design",
@@ -165,6 +181,10 @@ export const articles: Article[] = [
     title: "Why Custom Web Development is Better Than Templates",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTasQPRoqnRaPva0LSuBleNaDv-N-w5ge3VRg&s",
+    author: "Sarah Johnson",
+    author_image: "",
+    likes: 124,
+    comments: 50,
     description:
       "While templates may seem like a quick solution, they often lack the flexibility and customization needed to meet unique business goals. This blog compares custom web development to template-based solutions and explains why custom solutions provide better long-term value.",
     category: "Development",
@@ -205,6 +225,10 @@ export const articles: Article[] = [
     title: "The Importance of Responsive Web Design in Today's Digital World",
     image:
       "https://media.licdn.com/dms/image/D4D12AQGfUVAmfbTTpw/article-cover_image-shrink_720_1280/0/1708872613837?e=2147483647&v=beta&t=NvLO5t_MP7mhNshNsy68Nn9JjVTg0tiRLzZLiH9MWlc",
+    author: "Sarah Johnson",
+    author_image: "",
+    likes: 124,
+    comments: 50,
     description:
       "Responsive web design is essential for providing a seamless user experience across all devices. This blog explores the importance of responsive design and how it can improve user engagement and conversions.",
     category: "Design",
@@ -245,6 +269,10 @@ export const articles: Article[] = [
     title: "A Beginner’s Guide to Mobile App UI/UX Design",
     category: "Design",
     cardImage: "https://via.placeholder.com/400x200.png?text=UI+UX+Design",
+    author: "Sarah Johnson",
+    author_image: "",
+    likes: 124,
+    comments: 50,
     description:
       "This guide will help you understand the basics of UI/UX design for mobile apps and how to create user-friendly interfaces that enhance the user experience.",
     subTitle: "Create intuitive and user-friendly interfaces for mobile apps.",
@@ -278,6 +306,10 @@ export const articles: Article[] = [
     title: "Essential Tips for Building a Secure Mobile App",
     category: "Security",
     cardImage: "https://via.placeholder.com/400x200.png?text=Secure+App",
+    author: "Sarah Johnson",
+    author_image: "",
+    likes: 124,
+    comments: 50,
     description:
       "In today’s digital world, security is paramount. Learn key tips to build a secure mobile app and protect user data from potential threats.",
     subTitle: "Secure your app and safeguard user data from cyber threats.",
@@ -311,6 +343,10 @@ export const articles: Article[] = [
     title: "How to Optimize Mobile App Performance for Better User Experience",
     category: "Performance",
     cardImage: "https://via.placeholder.com/400x200.png?text=App+Performance",
+    author: "Sarah Johnson",
+    author_image: "",
+    likes: 124,
+    comments: 50,
     description:
       "A slow app can drive users away. Learn how to optimize your mobile app's performance to ensure fast load times and smooth interactions.",
     subTitle:
@@ -353,6 +389,11 @@ export const secondarticles = [
     category: "Design",
     subTitle: "Guide for designing better mobile apps typography",
     cardImage: "https://cdn.mos.cms.futurecdn.net/xCSAEp8DjjrT2UQB87AoFN.jpg",
+    author: "Nayeem Islam",
+    author_role: "Developer",
+    author_image: "https://i.ibb.co.com/sdp8gfcW/Untitled-design.jpg",
+    likes: 224,
+    comments: 50,
     content: {
       introduction:
         "As we continue to navigate the ever-evolving landscape of technology, web development stands out as a vital component of our digital world. With increasing user expectations and the complexity of internet ecosystems, the demand for bespoke web solutions is not just growing—it's essential. This blog explores why custom solutions are becoming increasingly important in web development and how they set businesses up for success in the digital future.",
@@ -392,6 +433,11 @@ export const secondarticles = [
     id: 2,
     title: "Why Mobile-First Design is Essential for Today's Web",
     image: "https://cdn.mos.cms.futurecdn.net/xCSAEp8DjjrT2UQB87AoFN.jpg",
+    author: "Shakil Ahmed",
+    author_image:
+      "https://i.postimg.cc/vTj5tFXj/477448955-3998563760460387-5555048774800958806-n.jpg",
+    likes: 374,
+    comments: 35,
     description:
       "With the majority of internet users accessing websites through mobile devices, mobile-first design has become crucial. Designing websites with a mobile-first approach ensures that users on smaller screens get an optimal experience, boosting engagement and conversion rates. This design strategy focuses on simplicity, faster load times, and intuitive navigation, all of which contribute to a more satisfying user experience. At CoderMat, we ensure that our web development approach always prioritizes mobile-first principles.",
     category: "UX/UI",
@@ -429,6 +475,10 @@ export const secondarticles = [
     id: 3,
     title: "The Importance of Website Speed for SEO and User Experience",
     image: "url_to_image_3.jpg",
+    author: "Sojib Mollik",
+    author_image: "https://i.ibb.co.com/7tgh7NJF/Untitled-design-3.jpg",
+    likes: 124,
+    comments: 50,
     description:
       "Website speed is no longer just a performance metric; it is a critical factor for SEO and user experience. Slow websites can lead to higher bounce rates, lower search rankings, and dissatisfied users. In this blog, we explore how website speed impacts SEO, the steps you can take to optimize your site’s performance, and why prioritizing speed is essential for long-term success.",
     category: "SEO",
@@ -467,6 +517,11 @@ export const secondarticles = [
     id: 4,
     title: "How to Enhance Your Website's User Experience in 2024",
     image: "url_to_image_2.jpg",
+    author: "Shakil Ahmed",
+    author_image:
+      "https://i.postimg.cc/vTj5tFXj/477448955-3998563760460387-5555048774800958806-n.jpg",
+    likes: 94,
+    comments: 5,
     description:
       "User experience is more important than ever as websites compete for attention. In 2024, websites must be fast, intuitive, and tailored to users' needs. This blog explains how to enhance user experience and improve customer satisfaction by focusing on design and functionality.",
     category: "Design",
@@ -507,6 +562,10 @@ export const secondarticles = [
     title: "Why Custom Web Development is Better Than Templates",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTasQPRoqnRaPva0LSuBleNaDv-N-w5ge3VRg&s",
+    author: "Nayeem Islam",
+    author_image: "https://i.ibb.co.com/sdp8gfcW/Untitled-design.jpg",
+    likes: 184,
+    comments: 26,
     description:
       "While templates may seem like a quick solution, they often lack the flexibility and customization needed to meet unique business goals. This blog compares custom web development to template-based solutions and explains why custom solutions provide better long-term value.",
     category: "Development",
@@ -547,6 +606,11 @@ export const secondarticles = [
     title: "The Importance of Responsive Web Design in Today's Digital World",
     image:
       "https://media.licdn.com/dms/image/D4D12AQGfUVAmfbTTpw/article-cover_image-shrink_720_1280/0/1708872613837?e=2147483647&v=beta&t=NvLO5t_MP7mhNshNsy68Nn9JjVTg0tiRLzZLiH9MWlc",
+    author: "Shakil Ahmed",
+    author_image:
+      "https://i.postimg.cc/vTj5tFXj/477448955-3998563760460387-5555048774800958806-n.jpg",
+    likes: 390,
+    comments: 80,
     description:
       "Responsive web design is essential for providing a seamless user experience across all devices. This blog explores the importance of responsive design and how it can improve user engagement and conversions.",
     category: "Design",
@@ -587,6 +651,10 @@ export const secondarticles = [
     title: "A Beginner’s Guide to Mobile App UI/UX Design",
     category: "Design",
     cardImage: "https://via.placeholder.com/400x200.png?text=UI+UX+Design",
+    author: "Sarah Johnson",
+    author_image: "",
+    likes: 124,
+    comments: 50,
     description:
       "This guide will help you understand the basics of UI/UX design for mobile apps and how to create user-friendly interfaces that enhance the user experience.",
     subTitle: "Create intuitive and user-friendly interfaces for mobile apps.",
@@ -623,6 +691,10 @@ export const secondarticles = [
     title: "Essential Tips for Building a Secure Mobile App",
     category: "Security",
     cardImage: "https://via.placeholder.com/400x200.png?text=Secure+App",
+    author: "Sarah Johnson",
+    author_image: "",
+    likes: 124,
+    comments: 50,
     description:
       "In today’s digital world, security is paramount. Learn key tips to build a secure mobile app and protect user data from potential threats.",
     subTitle: "Secure your app and safeguard user data from cyber threats.",
@@ -659,6 +731,10 @@ export const secondarticles = [
     title: "How to Optimize Mobile App Performance for Better User Experience",
     category: "Performance",
     cardImage: "https://via.placeholder.com/400x200.png?text=App+Performance",
+    author: "Sarah Johnson",
+    author_image: "",
+    likes: 124,
+    comments: 50,
     description:
       "A slow app can drive users away. Learn how to optimize your mobile app's performance to ensure fast load times and smooth interactions.",
     subTitle:

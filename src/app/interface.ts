@@ -88,3 +88,19 @@ export interface Article {
     cardImage: string;
     content: Content;
 }
+
+
+export interface Article {
+    id: number | string;
+    title: string;
+    image?: string;
+    description: string;
+    category: string;
+    subTitle: string;
+    cardImage: string;
+    content: Content;
+    author: string;
+    likes: number;
+    comments: number;
+    author_image: string;
+}
