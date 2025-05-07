@@ -116,10 +116,12 @@ const Footer = () => {
         </div>
 
         <div className="mt-10 text-center border-t border-[#6461616d] pt-6 flex flex-col md:flex-row justify-between items-center pb-7">
-          <p className="text-sm order-2 md:order-1 mt-5 md:mt-0">
-            © 2025 <strong>CoderMat</strong>. All rights reserved.
-          </p>
-
+          <div>
+            <p className="text-sm order-2 md:order-1 mt-5 md:mt-0">
+              © 2025 <strong>CoderMat</strong>. All rights reserved.
+            </p>
+            <p className="text-[10px] text-left text-[#ffffff54]">Version 2.0.13</p>
+          </div>
           <div className="mt-4 flex justify-center space-x-6 order-1 md:order-2 md:me-4">
             <a
               href="https://www.facebook.com/codermat"
