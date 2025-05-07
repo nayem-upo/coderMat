@@ -5,8 +5,8 @@
   }
   
   .container:active {
-    width: 180px;
-    height: 245px;
+    /* width: 180px;
+    height: 245px; */
   }
   
   #card {
@@ -36,7 +36,7 @@
     bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 20;
+    /* z-index: 20; */
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 2px;
@@ -251,7 +251,7 @@
   .canvas {
     perspective: 800px;
     inset: 0;
-    z-index: 200;
+    /* z-index: 200; */
     position: absolute;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

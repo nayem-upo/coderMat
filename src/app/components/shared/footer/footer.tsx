@@ -120,53 +120,57 @@ const Footer = () => {
             © 2025 <strong>CoderMat</strong>. All rights reserved.
           </p>
 
-          <div className="mt-4 flex justify-center space-x-6 order-1 md:order-2">
+          <div className="mt-4 flex justify-center space-x-6 order-1 md:order-2 md:me-4">
             <a
               href="https://www.facebook.com/codermat"
               target="_blank"
-              className="w-8 h-8 rounded-full hover:bg-[#93239d] duration-150"
+              className="w-8 h-8"
             >
               <Image
                 src="https://i.ibb.co/RTMngt9/logo-facebook.png"
                 alt="Facebook"
                 width={24}
                 height={24}
+                className="hover:bg-[#93239d] rounded-full duration-150"
               />
             </a>
             <a
               href="https://twitter.com/codermat"
               target="_blank"
-              className="w-8 h-8 rounded-full hover:bg-[#93239d] duration-150"
+              className="w-8 h-8"
             >
               <Image
                 src="https://i.ibb.co/yh5pjSH/logo-twitter.png"
                 alt="Twitter"
                 width={24}
                 height={24}
+                className="hover:bg-[#93239d] rounded-md duration-150"
               />
             </a>
             <a
               href="https://www.instagram.com/codermat"
               target="_blank"
-              className="w-8 h-8 rounded-full hover:bg-[#93239d] duration-150"
+              className="w-8 h-8"
             >
               <Image
                 src="https://i.ibb.co/9hkzwqC/logo-instagram.png"
                 alt="Instagram"
                 width={24}
                 height={24}
+                className="hover:bg-[#93239d] duration-150  rounded-md"
               />
             </a>
             <a
               href="https://github.com/codermat03"
               target="_blank"
-              className="w-8 h-8 rounded-full hover:bg-[#93239d] duration-150"
+              className="w-8 h-8"
             >
               <Image
                 src="https://i.ibb.co/Zf6dH50/logo-github.png"
                 alt="GitHub"
                 width={24}
                 height={24}
+                className="hover:bg-[#93239d] rounded-full duration-150"
               />
             </a>
           </div>

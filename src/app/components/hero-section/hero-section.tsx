@@ -234,7 +234,7 @@ export default function HeroSection() {
         </div>
       </section>
 
-      <div className="hidden md:block">
+      <div className="hidden md:block pb-5">
         <ScrollDownArrow />
       </div>
     </div>

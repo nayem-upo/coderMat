@@ -8,8 +8,8 @@ const Pricing = () => {
   const pricingPlans = [
     {
       title: "Starter",
-      priceBDT: 15000,
-      priceUSD: 200,
+      priceBDT: 30000,
+      priceUSD: 500,
       features: [
         "3-5 Pages",
         "Basic Design",
@@ -22,11 +22,11 @@ const Pricing = () => {
     },
     {
       title: "Business",
-      priceBDT: 30000,
-      priceUSD: 500,
+      priceBDT: 50000,
+      priceUSD: 1000,
       features: [
         "5-10 Pages",
-        "Custom Design",
+        "(CMS) Integration",
         "Basic SEO",
         "Blog Setup",
         "Speed Optimization",
@@ -37,8 +37,8 @@ const Pricing = () => {
     },
     {
       title: "Premium",
-      priceBDT: 50000,
-      priceUSD: 1000,
+      priceBDT: 100000,
+      priceUSD: 1500,
       features: [
         "Unlimited Pages",
         "Latest Technology",
