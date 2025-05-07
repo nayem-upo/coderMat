@@ -130,3 +130,32 @@ scrollbar {
 .animate-bounce-slow {
   animation: bounceSlow 2s infinite ease-in-out;
 }
+
+.perspective {
+  perspective: 1000px;
+}
+
+.transform-style {
+  transform-style: preserve-3d;
+}
+
+.rotate-y-6 {
+  transform: rotateY(50deg) scale(1.2);
+}
+
+.blog-card-image-wrapper {
+  perspective: 1000px;
+}
+
+.blog-card-image {
+  transition: transform 0.5s ease-in-out;
+  transform-style: preserve-3d;
+  transform-origin: right;
+  border-radius: 0.75rem;
+  object-fit: cover;
+}
+
+/* ✨ NEW: Hover on full card, not just image wrapper */
+.blog-card:hover .blog-card-image {
+  transform: rotateY(40deg) scale(1.1);
+}
