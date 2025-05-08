@@ -93,7 +93,7 @@ const Pricing = () => {
         </button>
       </div>
       <div className="lg:mx-20 pt-8 md:pt-20 md:px-8 lg:px-0 ">
-        <div className="grid md:mx-auto md:grid-cols-2 lg:grid-cols-3 md:gap-8 gap-y-10 justify-center">
+        <div className="grid md:mx-auto md:grid-cols-2 lg:grid-cols-3 md:gap-0 gap-y-10 justify-center">
           {pricingPlans.map((plan, index) => (
             <div
               key={index}

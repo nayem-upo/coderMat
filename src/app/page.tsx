@@ -54,7 +54,7 @@ export default function Home() {
         <WhyChooseUs />
       </section>
 
-      <section className="bg-gradient-to-t from-[#21122F] to-[#321544] border-b">
+      <section className="bg-gradient-to-t from-[#181819] to-[#21122F]">
         <TechnologyStack />
       </section>
 
