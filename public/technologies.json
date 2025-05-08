@@ -88,7 +88,6 @@
         "name": "Django",
         "image": "https://e7.pngegg.com/pngimages/10/113/png-clipart-django-web-development-web-framework-python-software-framework-django-text-trademark-thumbnail.png"
       },
-
       {
         "id": 37,
         "name": "Laravel",
@@ -99,7 +98,7 @@
   {
     "stack": {
       "id": 3,
-      "name": "Database"
+      "name": "Database & ORMs"
     },
     "technologies": [
       {
@@ -167,7 +166,6 @@
       }
     ]
   },
-
   {
     "stack": {
       "id": 7,

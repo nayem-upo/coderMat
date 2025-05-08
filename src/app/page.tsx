@@ -54,12 +54,6 @@ export default function Home() {
         <WhyChooseUs />
       </section>
 
-      <section className="bg-gradient-to-t from-[#181819] to-[#21122F]">
-        <div>
-          <OurWebDevelopmentProcess />
-        </div>
-      </section>
-
       <section className="bg-gradient-to-t from-[#21122F] to-[#321544] border-b">
         <TechnologyStack />
       </section>
@@ -70,6 +64,12 @@ export default function Home() {
 
       <section className="text-white bg-gradient-to-b from-[#181619] to-[#240F35] border-b">
         <Pricing />
+      </section>
+
+      <section className="bg-gradient-to-t from-[#181819] to-[#21122F]">
+        <div>
+          <OurWebDevelopmentProcess />
+        </div>
       </section>
 
       <section className="bg-gradient-to-t from-[#321544] to-[#20112E] border-b">
