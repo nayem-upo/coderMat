@@ -15,7 +15,7 @@ const ProjectDiscuss = () => {
 
       {/* Replace the href below with your actual Google Appointment link */}
       <a
-        href="https://calendar.app.google/edZSN3yjKFv84XdLA"
+        href="https://calendar.app.google/8KyG5bskGHN843DT7"
         target="_blank"
         rel="noopener noreferrer"
       >
