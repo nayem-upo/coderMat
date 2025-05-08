@@ -24,7 +24,6 @@ const Services = () => {
           height={1080}
         />
       </div>
-      <div></div>
     </main>
   );
 };

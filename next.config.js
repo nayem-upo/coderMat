@@ -3,7 +3,7 @@ module.exports = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "**", // Allows ALL domains
+        hostname: "**.imgbb.com"
       },
     ],
   },
