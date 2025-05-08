@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <>
       <section
-        className="relative min-h-screen border-b bg-cover bg-center bg-no-repeat"
+        className="relative min-h-[950px] md:min-h-screen lg:min-h-screen xl:min-h-screen 2xl:min-h-screen 3xl:min-h-screen border-b bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
             "url('https://i.postimg.cc/hPDQGNGn/banner-final.jpg')",
