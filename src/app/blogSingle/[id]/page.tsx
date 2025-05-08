@@ -3,6 +3,7 @@ import { Article } from "@/app/interface";
 import { useEffect, useState } from "react";
 import { articles } from "../blogData";
 import Image from "next/image";
+import Loader from "@/app/components/loader/Loader";
 
 
 const BlogSingle = ({ params }: { params: any }) => {
@@ -14,7 +15,7 @@ const BlogSingle = ({ params }: { params: any }) => {
   }, [params.id]);
   console.log(params.id);
   if (!article) {
-    return <p>Loading...</p>;
+    return <Loader />;
   }
 
   return (
