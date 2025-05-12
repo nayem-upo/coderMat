@@ -152,7 +152,7 @@ const AboutUs = () => {
             <p className="font-semibold text-xl text-center">
               <span className="text-2xl font-bold">Nayem Islam</span>{" "}
               <br className=" md:hidden" />
-              <span className="text-sm font-medium">Co-founder & CEO</span>
+              <span className="text-sm font-medium">Co-founder & COO</span>
             </p>
           </div>
         </section>
