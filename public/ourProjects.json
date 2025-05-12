@@ -4,7 +4,10 @@
     "project_name": "Click Website - AI Platform",
     "image": "https://i.postimg.cc/hj8wXJj9/click.png",
     "description": "A front-end website built for an AI platform showcasing various AI products and services.",
-    "technologies": ["Next.js", "Tailwind CSS"],
+    "technologies": [
+      "Next.js",
+      "Tailwind CSS"
+    ],
     "requirements": "Design and implement a clean and intuitive interface for the AI platform, providing product information and services.",
     "approach": "Built using Next.js and Tailwind CSS for a responsive and modern front-end design.",
     "challenges": "Ensuring the site is visually appealing while being easy to navigate for users with various technical backgrounds.",
@@ -16,9 +19,14 @@
   {
     "id": 6,
     "project_name": "Tuneyo - Music App",
-    "image": "https://i.postimg.cc/Hn980LZV/tune-yo.png",
+    "image": "https://i.ibb.co.com/RLnJTF9/screencapture-tuneyo-8be99-web-app-2025-05-12-20-54-17.png",
     "description": "A music web application that lets users explore, play, and interact with audio tracks.",
-    "technologies": ["React", "Express", "MongoDB", "Firebase"],
+    "technologies": [
+      "React",
+      "Express",
+      "MongoDB",
+      "Firebase"
+    ],
     "requirements": "Create an engaging UI for music lovers with authentication, audio controls, and payment integration.",
     "approach": "Built with React and backend powered by Express and MongoDB. Firebase handles authentication. Stripe used for payment.",
     "challenges": "Managing audio performance, user session persistence, and integration of payment gateways.",
@@ -32,7 +40,11 @@
     "project_name": "Kicken - Football Academy",
     "image": "https://i.postimg.cc/43mFQL3N/Kicken_website_home_page.png",
     "description": "A local football academy website designed to provide details about training programs, and coaches.",
-    "technologies": ["Next.js", "Tailwind CSS", "Netlify"],
+    "technologies": [
+      "Next.js",
+      "Tailwind CSS",
+      "Netlify"
+    ],
     "requirements": "Create a responsive website showcasing the football academy's offerings, including registration and program details.",
     "approach": "Built with Next.js and Tailwind CSS for a sleek and modern design, with easy navigation and interactive features.",
     "challenges": "Ensuring smooth navigation across pages, integrating a dynamic event schedule, and maintaining a responsive design.",
@@ -46,7 +58,11 @@
     "project_name": "Food Network - Restaurant",
     "image": "https://i.postimg.cc/0QN5nqwK/Food-Network-website-homepage.png",
     "description": "A restaurant website for showcasing menus, restaurant details, and reservation features.",
-    "technologies": ["MERN Stack", "Firebase", "Netlify"],
+    "technologies": [
+      "MERN Stack",
+      "Firebase",
+      "Netlify"
+    ],
     "requirements": "Build a fully functional restaurant website with an interactive menu, reservation system, and live updates.",
     "approach": "Developed with the MERN stack, Firebase for authentication, and deployed on Netlify, with a modern, responsive design.",
     "challenges": "Implementing a live reservation system and keeping the menu dynamically updated.",
@@ -60,7 +76,11 @@
     "project_name": "Toy Kingdom - E-commerce",
     "image": "https://i.postimg.cc/wMQpYfLY/Toykingdom-homepage.png",
     "description": "An online e-commerce platform for buying kids' toys, built with the MERN stack and Firebase.",
-    "technologies": ["MERN Stack", "Firebase", "Netlify"],
+    "technologies": [
+      "MERN Stack",
+      "Firebase",
+      "Netlify"
+    ],
     "requirements": "Build a scalable e-commerce site with secure payment and product management.",
     "approach": "Responsive UI built with MERN stack, Firebase for authentication, deployed on Netlify.",
     "challenges": "Implementing secure payment and managing large product inventory state.",
@@ -74,6 +94,11 @@
     "project_name": "E-commerce Website",
     "image": "https://i.postimg.cc/QN0MvbdC/Shutterstock-ysa-G9-Kj-VPW.jpg",
     "description": "A responsive e-commerce platform with user authentication, product filtering, and payment system.",
-    "technologies": ["React", "Express", "MongoDB", "Stripe API"]
+    "technologies": [
+      "React",
+      "Express",
+      "MongoDB",
+      "Stripe API"
+    ]
   }
 ]
