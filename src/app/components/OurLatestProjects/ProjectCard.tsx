@@ -20,7 +20,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           alt={project_name}
           width={390}
           height={500} // full image height
-          className="absolute top-0 left-0 w-full object-cover transition-transform duration-[4000ms] ease-linear group-hover:-translate-y-[270px] group-hover:scale-105"
+          className="absolute top-0 left-0 w-full object-cover transition-transform duration-[4000ms] ease-linear group-hover:-translate-y-[70%] group-hover:scale-105"
           priority
         />
       </div>
