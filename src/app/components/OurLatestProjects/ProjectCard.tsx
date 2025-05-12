@@ -20,10 +20,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           alt={project_name}
           width={390}
           height={500} // full image height
-          className="absolute top-0 left-0 w-full object-cover transition-transform duration-[8000ms] ease-linear group-hover:-translate-y-[40%] group-hover:scale-105"
+          className="absolute top-0 left-0 w-full object-cover transition-transform duration-[3000ms] ease-linear group-hover:-translate-y-[40%] group-hover:scale-105"
           priority
         />
       </div>
+
 
       <div className="p-7">
         <h2 className="py-4 text-xl font-bold">{project_name}</h2>
