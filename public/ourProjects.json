@@ -2,7 +2,7 @@
   {
     "id": 1,
     "project_name": "Click Website - AI Platform",
-    "image": "https://i.postimg.cc/hj8wXJj9/click.png",
+    "image": "https://i.ibb.co.com/jv9rppMG/screencapture-clickbyshakil-netlify-app-2025-05-12-21-06-53.png",
     "description": "A front-end website built for an AI platform showcasing various AI products and services.",
     "technologies": [
       "Next.js",
@@ -38,7 +38,7 @@
   {
     "id": 2,
     "project_name": "Kicken - Football Academy",
-    "image": "https://i.postimg.cc/43mFQL3N/Kicken_website_home_page.png",
+    "image": "https://i.ibb.co.com/V0SWwzLc/screencapture-kickenbyshakil-netlify-app-2025-05-12-21-09-40.png",
     "description": "A local football academy website designed to provide details about training programs, and coaches.",
     "technologies": [
       "Next.js",
@@ -56,7 +56,7 @@
   {
     "id": 3,
     "project_name": "Food Network - Restaurant",
-    "image": "https://i.postimg.cc/0QN5nqwK/Food-Network-website-homepage.png",
+    "image": "https://i.ibb.co.com/rKVJ1ZHR/screencapture-foodnetworkbyshakil-netlify-app-2025-05-12-21-11-51.png",
     "description": "A restaurant website for showcasing menus, restaurant details, and reservation features.",
     "technologies": [
       "MERN Stack",
@@ -74,7 +74,7 @@
   {
     "id": 4,
     "project_name": "Toy Kingdom - E-commerce",
-    "image": "https://i.postimg.cc/wMQpYfLY/Toykingdom-homepage.png",
+    "image": "https://i.ibb.co.com/gLdMwhkq/screencapture-toykingdombyshakil-netlify-app-2025-05-12-21-13-25.png",
     "description": "An online e-commerce platform for buying kids' toys, built with the MERN stack and Firebase.",
     "technologies": [
       "MERN Stack",
@@ -92,7 +92,7 @@
   {
     "id": 5,
     "project_name": "E-commerce Website",
-    "image": "https://i.postimg.cc/QN0MvbdC/Shutterstock-ysa-G9-Kj-VPW.jpg",
+    "image": "https://i.ibb.co.com/wZB9grP4/screencapture-food-and-test-web-app-2025-05-12-21-18-05.png",
     "description": "A responsive e-commerce platform with user authentication, product filtering, and payment system.",
     "technologies": [
       "React",
