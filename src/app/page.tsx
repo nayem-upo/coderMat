@@ -12,6 +12,7 @@ import Pricing from "./components/Pricing/Pricing";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 import Projetcs from "./components/OurLatestProjects/Projetcs";
 import Loader from "./components/loader/Loader";
+import ChatWidget from "./components/ChatBot";
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -49,6 +50,8 @@ export default function Home() {
       <section className="bg-gradient-to-b from-[#21112E] via-[#280d42] to-[#280d42]">
         <Services />
       </section>
+
+      <ChatWidget />
 
       <section className="text-white bg-gradient-to-b from-[#181819] to-[#1F122A] border-b">
         <WhyChooseUs />

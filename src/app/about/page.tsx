@@ -140,7 +140,7 @@ const AboutUs = () => {
           <div className="p-6 rounded-lg max-w-md">
             <div className="flex items-center mb-4 md:w-[300px] lg:w-full">
               <Image
-                src="https://i.ibb.co.com/XfWkQmB9/Beige-Minimalist-Rectangular-Menu-Collage-Cafe-Facebook-Post.png"
+                src="https://i.ibb.co/TDxX845d/codermat-coo.png"
                 className="bg-white/10 pt-5 rounded-xl md:transform"
                 alt="Next Image Description"
                 width={700}
