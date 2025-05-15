@@ -159,7 +159,7 @@ const AboutUs = () => {
 
         <section className="flex flex-col md:flex-row justify-between items-start gap-10 mb-16">
           {/* Testimonial */}
-          <div className="p-6 rounded-lg max-w-md">
+          <div className="p-6 rounded-lg max-w-md w-1/2">
             <div className="flex items-center mb-4 md:w-[300px] lg:w-full">
               <Image
                 src="https://i.ibb.co/dwVRxSBF/Untitled-design-18.png"
@@ -178,7 +178,7 @@ const AboutUs = () => {
             </p>
           </div>
 
-          <div>
+          <div className="w-1/2">
             <h2 className="text-2xl md:text-3xl font-bold mb-6">Our Process</h2>
             <p className="mb-6">
               We believe that collaboration is essential for the success of any
