@@ -51,7 +51,7 @@ export default function Home() {
         <Services />
       </section>
 
-      <ChatWidget />
+      {/* <ChatWidget /> */}
 
       <section className="text-white bg-gradient-to-b from-[#181819] to-[#1F122A] border-b">
         <WhyChooseUs />
