@@ -162,19 +162,19 @@ const AboutUs = () => {
           <div className=" p-6 rounded-lg max-w-md">
             <div className="flex items-center mb-4 md:w-[300px] lg:w-full">
               <Image
-                src=""
-                className="bg-white/10 pt-10 rounded-xl md:transform md:scale-x-[-1]"
+                src="https://i.ibb.co/23BB6SB1/Untitled-design-17.png"
+                className="bg-white/10 pt-5 rounded-xl md:transform md:scale-x-[-1]"
                 alt="Next Image Description"
-                width={600}
-                height={400}
+                width={700}
+                height={500}
                 layout="intrinsic"
               />
             </div>
 
             <p className="font-semibold text-xl text-center">
-              <span className="text-2xl font-bold">Team</span>{" "}
+              <span className="text-2xl font-bold">Sojib Mollik</span>{" "}
               <br className=" md:hidden" />
-              <span className="text-sm font-medium">CoderMat</span>
+              <span className="text-sm font-medium">Chief Marketer</span>
             </p>
           </div>
 

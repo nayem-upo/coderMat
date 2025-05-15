@@ -4,13 +4,18 @@ import { usePathname } from "next/navigation";
 import ServiceCard from "./serviceCard";
 import { service } from "@/app/interface";
 
-const SkeletonLoader = () => {
+// SkeletonLoader component accepts a `count` prop
+type SkeletonLoaderProps = {
+  count: number;
+};
+
+const SkeletonLoader = ({ count }: SkeletonLoaderProps) => {
   return (
-    <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 px-10 justify-center gap-8 mt-20">
-      {Array.from({ length: 6 }).map((_, index) => (
+    <div className="max-w-7xl xl:max-w-[105rem] 2xl:max-w-[84rem] 3xl:max-w-[105rem] mx-auto grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-4 px-10 justify-center gap-12 mt-10 md:mt-20">
+      {Array.from({ length: count }).map((_, index) => (
         <div
           key={index}
-          className="transform transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl backdrop-blur-md bg-[#2F1748] flex flex-col items-start border-l-0 border-t-0 border-[#5C099B] border-4 p-5 rounded-xl w-[330px] lg:w-[390px] mx-auto h-[343px]"
+          className="transform transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl backdrop-blur-md bg-[#2F1748] flex flex-col items-start border-l-0 border-t-0 border-[#5C099B] border-4 p-5 rounded-xl w-full h-[343px]"
         >
           <div className="animate-pulse flex flex-col w-full h-full justify-between">
             <div>
@@ -59,11 +64,13 @@ const Services = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const getVisibleServices = () => {
-    if (!isHomePage) return services; // Full on /services page
-    if (windowWidth >= 1540) return services; // Show all 8 if screen is 3xl or larger
-    return services.slice(0, 6); // Show 6 cards on home by default
+  const getVisibleItemsCount = () => {
+    if (!isHomePage) return services.length || 8;
+    if (windowWidth >= 1540) return services.length || 8;
+    return 6;
   };
+
+  const visibleServices = services.slice(0, getVisibleItemsCount());
 
   return (
     <div className="py-10 md:py-20 text-white px-4 md:px-0">
@@ -76,10 +83,10 @@ const Services = () => {
       </p>
 
       {loading ? (
-        <SkeletonLoader />
+        <SkeletonLoader count={getVisibleItemsCount()} />
       ) : (
-        <div className="max-w-7xl xl:max-w-[105rem] mx-auto grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-4 px-10 justify-center gap-8 mt-10 md:mt-20">
-          {getVisibleServices().map((service: service) => (
+        <div className="max-w-7xl xl:max-w-[105rem] 2xl:max-w-[84rem] 3xl:max-w-[105rem] mx-auto grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-3 3xl:grid-cols-4 px-10 justify-center gap-12 mt-10 md:mt-20">
+          {visibleServices.map((service: service) => (
             <ServiceCard service={service} key={service.id} />
           ))}
         </div>
