@@ -165,8 +165,8 @@ const AboutUs = () => {
                 src="https://i.ibb.co/dwVRxSBF/Untitled-design-18.png"
                 className="bg-white/10 pt-5 rounded-xl md:transform md:scale-x-[-1]"
                 alt="Next Image Description"
-                width={800}
-                height={500}
+                width={700}
+                height={450}
               />
             </div>
 
