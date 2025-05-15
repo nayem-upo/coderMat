@@ -159,11 +159,11 @@ const AboutUs = () => {
 
         <section className="flex flex-col md:flex-row justify-between items-start gap-10 mb-16">
           {/* Testimonial */}
-          <div className=" p-6 rounded-lg max-w-md">
+          <div className="p-6 rounded-lg max-w-md">
             <div className="flex items-center mb-4 md:w-[300px] lg:w-full">
               <Image
                 src="https://i.ibb.co/dwVRxSBF/Untitled-design-18.png"
-                className="bg-white/10 pt-5 rounded-xl md:transform md:scale-x-[-1] w-[500px] h-[400px]"
+                className="bg-white/10 pt-5 rounded-xl md:transform md:scale-x-[-1]"
                 alt="Next Image Description"
                 width={700}
                 height={500}
