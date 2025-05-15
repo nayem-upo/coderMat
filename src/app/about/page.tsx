@@ -165,16 +165,15 @@ const AboutUs = () => {
                 src="https://i.ibb.co/dwVRxSBF/Untitled-design-18.png"
                 className="bg-white/10 pt-5 rounded-xl md:transform md:scale-x-[-1]"
                 alt="Next Image Description"
-                width={700}
+                width={800}
                 height={500}
-                layout="intrinsic"
               />
             </div>
 
             <p className="font-semibold text-xl text-center">
               <span className="text-2xl font-bold">Sojib Mollik</span>{" "}
               <br className=" md:hidden" />
-              <span className="text-sm font-medium">Chief Marketer</span>
+              <span className="text-sm font-medium">Co-founder & CMO</span>
             </p>
           </div>
 
@@ -232,10 +231,10 @@ const AboutUs = () => {
       <Image
         src="https://i.postimg.cc/kgGNMLQ8/home14-bg4.png"
         alt="Background Image"
-        width={1200} // You can adjust the width as needed
-        height={800} // You can adjust the height as needed
-        className="w-full" // Add the same class for styling
-        layout="intrinsic" // This will keep the aspect ratio
+        width={1200}
+        height={800}
+        className="w-full"
+        layout="intrinsic"
       />
     </main>
   );
