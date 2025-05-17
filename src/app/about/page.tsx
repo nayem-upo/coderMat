@@ -157,76 +157,69 @@ const AboutUs = () => {
           </div>
         </section>
 
-        <section className="flex flex-col md:flex-row justify-between items-start gap-10 mb-16">
+        <section className="flex flex-col lg:flex-row gap-10 mb-16 px-4">
           {/* Testimonial */}
-          <div className="p-6 rounded-lg max-w-md w-1/2">
-            <div className="flex items-center mb-4 md:w-[300px] lg:w-full">
+          <div className="p-6 rounded-lg w-full lg:w-1/2 flex flex-col items-center text-center">
+            <div className="flex justify-center mb-4 w-full max-w-[440px] max-h-[390px]">
               <Image
                 src="https://i.ibb.co/dwVRxSBF/Untitled-design-18.png"
-                className="bg-white/10 pt-5 rounded-xl md:transform md:scale-x-[-1]"
+                className="bg-white/10 pt-5 rounded-xl md:transform md:scale-x-[-1] object-contain"
                 alt="Next Image Description"
                 width={700}
                 height={450}
               />
             </div>
 
-            <p className="font-semibold text-xl text-center">
-              <span className="text-2xl font-bold">Sojib Mollik</span>{" "}
-              <br className=" md:hidden" />
-              <span className="text-sm font-medium">Co-founder & CMO</span>
+            <p className="font-semibold text-xl">
+              <span className="text-2xl font-bold block">Sojib Mollik</span>
+              <span className="text-sm font-medium block">Co-founder & CMO</span>
             </p>
           </div>
 
-          <div className="w-1/2">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6">Our Process</h2>
-            <p className="mb-6">
-              We believe that collaboration is essential for the success of any
-              project. Our process begins with understanding your goals,
-              audience, and objectives. From there, we integrate design,
-              functionality, and usability to create digital solutions that work
-              seamlessly and deliver measurable results. Every step of our
-              process is driven by the desire to address your challenges, not
-              just to create a website.
+          {/* Process */}
+          <div className="w-full lg:w-1/2">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center lg:text-left">Our Process</h2>
+            <p className="mb-6 text-justify">
+              We believe that collaboration is essential for the success of any project.
+              Our process begins with understanding your goals, audience, and objectives.
+              From there, we integrate design, functionality, and usability to create
+              digital solutions that work seamlessly and deliver measurable results.
+              Every step of our process is driven by the desire to address your challenges,
+              not just to create a website.
             </p>
 
-            <div>
-              <ul className="list-disc pl-6 mb-6">
-                <li>
-                  <span className="font-bold text-xl">Discovery & Strategy:</span>{" "}
-                  We begin by understanding your business, industry, and goals so
-                  we can develop a strategy that works for you.
-                </li>
-                <li>
-                  <span className="font-bold text-xl">Design & Development:</span>{" "}
-                  Our design team creates custom, user-friendly designs that
-                  reflect your brand, while our developers ensure that the website
-                  is fast, secure, and scalable.
-                </li>
-                <li>
-                  <span className="font-bold text-xl">Testing & Launch:</span>{" "}
-                  Before going live, we test everything to ensure it’s perfect.
-                  From performance to usability, we ensure your website works
-                  flawlessly.
-                </li>
-                <li>
-                  <span className="font-bold text-xl">
-                    Support & Optimization:
-                  </span>{" "}
-                  After launch, we continue to support and optimize your website
-                  to ensure it remains up-to-date and effective in achieving your
-                  goals.
-                </li>
-              </ul>
-            </div>
+            <ul className="list-disc pl-6 mb-6 space-y-4 text-justify">
+              <li>
+                <span className="font-bold text-xl">Discovery & Strategy:</span> We begin
+                by understanding your business, industry, and goals so we can develop a
+                strategy that works for you.
+              </li>
+              <li>
+                <span className="font-bold text-xl">Design & Development:</span> Our design
+                team creates custom, user-friendly designs that reflect your brand, while
+                our developers ensure that the website is fast, secure, and scalable.
+              </li>
+              <li>
+                <span className="font-bold text-xl">Testing & Launch:</span> Before going
+                live, we test everything to ensure it’s perfect. From performance to
+                usability, we ensure your website works flawlessly.
+              </li>
+              <li>
+                <span className="font-bold text-xl">Support & Optimization:</span> After
+                launch, we continue to support and optimize your website to ensure it
+                remains up-to-date and effective in achieving your goals.
+              </li>
+            </ul>
 
-            <p className="mb-6">
-              With <span className="font-bold text-xl">CoderMat</span>, you are
-              not just getting a website — you are gaining a partner devoted to
-              your business's success. Allow us to assist you in elevating your
-              digital presence to the next level.
+            <p className="mb-6 text-justify">
+              With <span className="font-bold text-xl">CoderMat</span>, you are not just
+              getting a website — you are gaining a partner devoted to your business's
+              success. Allow us to assist you in elevating your digital presence to the
+              next level.
             </p>
           </div>
         </section>
+
       </div>
       <Image
         src="https://i.postimg.cc/kgGNMLQ8/home14-bg4.png"

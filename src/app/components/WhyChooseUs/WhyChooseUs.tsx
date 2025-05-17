@@ -19,7 +19,7 @@ const WhyChooseUs = () => {
               className="rounded-xl"
               width={350}
               height={350}
-              src="https://img.freepik.com/free-vector/flat-people-asking-questions-illustrated_23-2148898772.jpg"
+              src="https://i.ibb.co/MFcDhMh/OUR-TEAM-1.jpg"
               alt="Background"
             />
             <Image
